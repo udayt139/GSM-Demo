@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Offers Regression,Firefox 69.0,,,2019-10-14 11:24:48,2019-10-14 11:26:08,1m - 20.490s,INCOMPLETE
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Login/GSM Login,Firefox 69.0,,,2019-10-14 11:24:48,2019-10-14 11:25:39,50.280s,FAILED
+"openBrowser("""")",Firefox 69.0,,,2019-10-14 11:24:49,2019-10-14 11:25:04,15.163s,PASSED
+navigateToUrl(url),Firefox 69.0,,,2019-10-14 11:25:04,2019-10-14 11:25:12,7.551s,PASSED
+"click(findTestObject(""Object Repository/GSM Login/Page_GSM Portal/button_Log in""))",Firefox 69.0,,,2019-10-14 11:25:12,2019-10-14 11:25:19,7.707s,PASSED
+delay(3),Firefox 69.0,,,2019-10-14 11:25:19,2019-10-14 11:25:22,3.049s,PASSED
+"setText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Email Address_email""), username)",Firefox 69.0,,,2019-10-14 11:25:22,2019-10-14 11:25:29,6.423s,PASSED
+delay(2),Firefox 69.0,,,2019-10-14 11:25:29,2019-10-14 11:25:31,2.007s,PASSED
+"setText(findTestObject(""Object Repository/GSM Login/Page_GSM Login/input_Password_password""), password)",Firefox 69.0,,,2019-10-14 11:25:31,2019-10-14 11:25:39,7.830s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer,Firefox 69.0,,,2019-10-14 11:25:39,2019-10-14 11:25:43,4.378s,FAILED
+"click(findTestObject(""Object Repository/Create Offer/Page_Dashboard/div_Content""))",Firefox 69.0,,,2019-10-14 11:25:39,2019-10-14 11:25:43,4.117s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer,Firefox 69.0,,,2019-10-14 11:25:43,2019-10-14 11:25:52,9.403s,FAILED
+delay(5),Firefox 69.0,,,2019-10-14 11:25:43,2019-10-14 11:25:48,5.005s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Templates/a_Offers""))",Firefox 69.0,,,2019-10-14 11:25:48,2019-10-14 11:25:52,4.131s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer,Firefox 69.0,,,2019-10-14 11:25:52,2019-10-14 11:26:04,11.344s,FAILED
+delay(5),Firefox 69.0,,,2019-10-14 11:25:53,2019-10-14 11:25:58,5.005s,PASSED
+delay(2),Firefox 69.0,,,2019-10-14 11:25:58,2019-10-14 11:26:00,2.011s,PASSED
+"click(findTestObject(""Delete Offer/Page_Offers/div_Most Recent Uploads_library-table-checkbox no-label checkbox""))",Firefox 69.0,,,2019-10-14 11:26:00,2019-10-14 11:26:04,4.129s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Logout/GSM Logout,Firefox 69.0,,,2019-10-14 11:26:04,2019-10-14 11:26:08,4.278s,FAILED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4""))",Firefox 69.0,,,2019-10-14 11:26:04,2019-10-14 11:26:08,4.094s,FAILED

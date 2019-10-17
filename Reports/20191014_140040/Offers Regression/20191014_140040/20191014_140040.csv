@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Offers Regression,,,,2019-10-14 14:02:31,2019-10-14 14:03:03,32.859s,INCOMPLETE
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Login/GSM Login,,,,2019-10-14 14:02:31,2019-10-14 14:02:50,18.444s,FAILED
+"openBrowser("""")",,,,2019-10-14 14:02:32,2019-10-14 14:02:50,17.870s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Create Offer,,,,2019-10-14 14:02:50,2019-10-14 14:02:50,0.559s,FAILED
+"click(findTestObject(""Object Repository/Create Offer/Page_Dashboard/div_Content""))",,,,2019-10-14 14:02:50,2019-10-14 14:02:50,0.238s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Edit Offer,,,,2019-10-14 14:02:50,2019-10-14 14:02:56,5.546s,FAILED
+delay(5),,,,2019-10-14 14:02:51,2019-10-14 14:02:56,5.041s,PASSED
+"click(findTestObject(""Object Repository/Edit Offer/Page_Templates/a_Offers""))",,,,2019-10-14 14:02:56,2019-10-14 14:02:56,0.132s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Content Management/OFFERS/Delete Offer,,,,2019-10-14 14:02:56,2019-10-14 14:03:03,7.410s,FAILED
+delay(5),,,,2019-10-14 14:02:56,2019-10-14 14:03:01,5.007s,PASSED
+delay(2),,,,2019-10-14 14:03:01,2019-10-14 14:03:03,2.008s,PASSED
+"click(findTestObject(""Delete Offer/Page_Offers/div_Most Recent Uploads_library-table-checkbox no-label checkbox""))",,,,2019-10-14 14:03:03,2019-10-14 14:03:03,0.110s,FAILED
+,,,,,,,
+Test Cases/Test Scenarios/Modules/Logout/GSM Logout,,,,2019-10-14 14:03:03,2019-10-14 14:03:03,0.300s,FAILED
+"click(findTestObject(""GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4""))",,,,2019-10-14 14:03:03,2019-10-14 14:03:03,0.087s,FAILED

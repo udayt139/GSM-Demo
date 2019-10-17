@@ -1,0 +1,18 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": false,
+      "proposedXPath": "//button",
+      "testObjectId": "Object Repository/Upload Image1/Page_GSM Portal/button_Log in",
+      "brokenXPath": "//button[@type\u003d\u0027button\u0027]",
+      "pathToScreenshot": "C:/Users/Dell/Katalon Studio/1/Reports/smart_xpath/Object Repository/Upload Image1/Page_GSM Portal/button_Log in_position.png"
+    },
+    {
+      "approved": false,
+      "proposedXPath": "//a[contains(text(),\u0027Edit\u0027)]",
+      "testObjectId": "Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Edit",
+      "brokenXPath": "//div[@id\u003d\u0027image-menu-89c4658883e24c1891a0c28a87a7fac4\u0027]/div[2]/ul/li[3]/a",
+      "pathToScreenshot": ""
+    }
+  ]
+}
