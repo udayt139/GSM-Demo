@@ -20,7 +20,7 @@ WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/IMAGES/
 WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/button_Local_dropdown-toggle btn btn-icon btn-light'))
 
 WebUI.scrollToElement(findTestObject('UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Edit'), 
-    0)
+    3)
 
 WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Edit'))
 

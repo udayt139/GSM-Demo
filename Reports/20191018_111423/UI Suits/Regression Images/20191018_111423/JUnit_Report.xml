@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Regression Images" time="300" tests="5" failures="0" errors="0">
+    <testsuite name="Regression Images" tests="5" failures="0" errors="0" time="300" timestamp="2019-10-18 11:14:31" hostname="Dell - DESKTOP-A4R0EHC" id="Test Suites/UI Suits/Regression Images">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191018_111423\\UI Suits\\Regression Images\\20191018_111423"/>
+            <property name="logFiles" value="C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191018_111423\\UI Suits\\Regression Images\\20191018_111423\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Dell - DESKTOP-A4R0EHC"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 77.0.3865.120"/>
+            <property name="hostAddress" value="192.168.0.110"/>
+            <property name="sessionId" value="e24e4f845e04213725c0d5821313869d"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/UI Test Scenarios/Modules/Login/GSM Login" classname="Test Cases/UI Test Scenarios/Modules/Login/GSM Login" status="PASSED">
+            <system-out>2019-10-18 11:14:32 - [TEST_CASE][PASSED] - Test Cases/UI Test Scenarios/Modules/Login/GSM Login: Test Cases/UI Test Scenarios/Modules/Login/GSM Login&#xD;
+&#xD;
+2019-10-18 11:14:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-18 11:14:33 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-10-18 11:14:33 - [MESSAGE][INFO] - Action delay is set to 2 seconds&#xD;
+&#xD;
+2019-10-18 11:14:44 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-18 11:14:44 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-18 11:14:49 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-18 11:14:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-10-18 11:14:56 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-10-18 11:14:56 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/GSM Login/Page_GSM Portal/button_Log in")): Object: 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-18 11:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-18 11:15:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)&#xD;
+&#xD;
+2019-10-18 11:15:06 - [MESSAGE][PASSED] - Delayed 3 second(s)&#xD;
+&#xD;
+2019-10-18 11:15:06 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Email Address_email"), username): Text 'sankaran@totient.co.in' is set on object 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-18 11:15:13 - [MESSAGE][PASSED] - Text 'sankaran@totient.co.in' is set on object 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-18 11:15:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)&#xD;
+&#xD;
+2019-10-18 11:15:15 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-10-18 11:15:15 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Password_password"), password): Text 'sandbox85!' is set on object 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-18 11:15:21 - [MESSAGE][PASSED] - Text 'sandbox85!' is set on object 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-18 11:15:21 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/GSM Login/Page_GSM Login/button_Log In")): Object: 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-18 11:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-18 11:15:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)&#xD;
+&#xD;
+2019-10-18 11:15:31 - [MESSAGE][PASSED] - Delayed 5 second(s)&#xD;
+&#xD;
+2019-10-18 11:15:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI Test Scenarios/Modules/GSM Login/div_Welcome Sankaran"), "Welcome, Sankaran"): Actual text and expected text of test object 'Object Repository/UI Test Scenarios/Modules/GSM Login/div_Welcome Sankaran' are matched.&#xD;
+&#xD;
+2019-10-18 11:15:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI Test Scenarios/Modules/GSM Login/div_Welcome Sankaran' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Upload Image" classname="Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Upload Image" status="PASSED">
+            <system-out>2019-10-18 11:15:37 - [TEST_CASE][PASSED] - Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Upload Image: Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Upload Image&#xD;
+&#xD;
+2019-10-18 11:15:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Dashboard/div_Content")): NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Dashboard/div_Content"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Dashboard/div_Content"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Templates/a_Images")): NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Templates/a_Images"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Templates/a_Images"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Upload")): NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Upload"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Upload"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [TEST_STEP][NOT_RUN] - setText(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/input_Image Name_image-group-0-name"), "innova"): NOT_RUN: setText(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/input_Image Name_image-group-0-name"), "innova")&#xD;
+&#xD;
+2019-10-18 11:15:38 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/input_Image Name_image-group-0-name"), "innova")&#xD;
+&#xD;
+2019-10-18 11:15:38 - [TEST_STEP][NOT_RUN] - com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/div_Select Files"), "C:\Users\Dell\Pictures\Innova.jpg"): NOT_RUN: com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/div_Select Files"), "C:\Users\Dell\Pictures\Innova.jpg")&#xD;
+&#xD;
+2019-10-18 11:15:38 - [MESSAGE][NOT_RUN] - NOT_RUN: com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/div_Select Files"), "C:\Users\Dell\Pictures\Innova.jpg")&#xD;
+&#xD;
+2019-10-18 11:15:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/button_Select")): NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/button_Select"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/button_Select"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/a_Email")): NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/a_Email"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/a_Email"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/button_Select_1")): NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/button_Select_1"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/button_Select_1"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/a_English (US)")): NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/a_English (US)"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/a_English (US)"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/input_Marketing Category_image-group-0-marketingCategory")): NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/input_Marketing Category_image-group-0-marketingCategory"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/input_Marketing Category_image-group-0-marketingCategory"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/button_Finish Upload")): NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/button_Finish Upload"))&#xD;
+&#xD;
+2019-10-18 11:15:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/button_Finish Upload"))</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image" classname="Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image" status="PASSED">
+            <system-out>2019-10-18 11:15:38 - [TEST_CASE][PASSED] - Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image: Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image&#xD;
+&#xD;
+2019-10-18 11:15:38 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Dashboard/div_Content")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-18 11:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-18 11:15:42 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Templates/a_Images")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Templates/a_Images' is clicked on&#xD;
+&#xD;
+2019-10-18 11:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Templates/a_Images' is clicked on&#xD;
+&#xD;
+2019-10-18 11:15:46 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/button_Local_dropdown-toggle btn btn-icon btn-light")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/button_Local_dropdown-toggle btn btn-icon btn-light' is clicked on&#xD;
+&#xD;
+2019-10-18 11:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/button_Local_dropdown-toggle btn btn-icon btn-light' is clicked on&#xD;
+&#xD;
+2019-10-18 11:15:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Edit"), 0): Scroll to object 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Edit' successfully&#xD;
+&#xD;
+2019-10-18 11:15:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-18 11:16:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='image-menu-89c4658883e24c1891a0c28a87a7fac4']/div[2]/ul/li[3]/a'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-10-18 11:16:26 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.&#xD;
+&#xD;
+2019-10-18 11:16:28 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='image-menu-89c4658883e24c1891a0c28a87a7fac4']/div[2]/ul/li[3]/a'.&#xD;
+&#xD;
+2019-10-18 11:16:30 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//a[contains(text(),'Edit')]'.&#xD;
+&#xD;
+2019-10-18 11:16:41 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath, reason: (y + height) is outside of Raster&#xD;
+&#xD;
+2019-10-18 11:16:43 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Archive'])[1]/following::a[1]'.&#xD;
+&#xD;
+2019-10-18 11:16:53 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath, reason: (y + height) is outside of Raster&#xD;
+&#xD;
+2019-10-18 11:16:55 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Page'])[1]/preceding::a[2]'.&#xD;
+&#xD;
+2019-10-18 11:17:06 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath, reason: (y + height) is outside of Raster&#xD;
+&#xD;
+2019-10-18 11:17:08 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//a[contains(@href, '/content/images/89c4658883e24c1891a0c28a87a7fac4')]'.&#xD;
+&#xD;
+2019-10-18 11:17:10 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[2]/div[2]/div[2]/div/div[2]/ul/li[3]/a'.&#xD;
+&#xD;
+2019-10-18 11:17:20 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath, reason: (y + height) is outside of Raster&#xD;
+&#xD;
+2019-10-18 11:17:20 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//a[contains(text(),'Edit')]'.&#xD;
+&#xD;
+2019-10-18 11:17:20 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!&#xD;
+&#xD;
+2019-10-18 11:17:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Edit' successfully&#xD;
+&#xD;
+2019-10-18 11:17:23 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Edit")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Edit' is clicked on&#xD;
+&#xD;
+2019-10-18 11:17:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='image-menu-89c4658883e24c1891a0c28a87a7fac4']/div[2]/ul/li[3]/a'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-10-18 11:17:53 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.&#xD;
+&#xD;
+2019-10-18 11:17:55 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='image-menu-89c4658883e24c1891a0c28a87a7fac4']/div[2]/ul/li[3]/a'.&#xD;
+&#xD;
+2019-10-18 11:17:57 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//a[contains(text(),'Edit')]'.&#xD;
+&#xD;
+2019-10-18 11:18:07 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath, reason: (y + height) is outside of Raster&#xD;
+&#xD;
+2019-10-18 11:18:10 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Archive'])[1]/following::a[1]'.&#xD;
+&#xD;
+2019-10-18 11:18:20 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath, reason: (y + height) is outside of Raster&#xD;
+&#xD;
+2019-10-18 11:18:22 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Page'])[1]/preceding::a[2]'.&#xD;
+&#xD;
+2019-10-18 11:18:32 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath, reason: (y + height) is outside of Raster&#xD;
+&#xD;
+2019-10-18 11:18:34 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//a[contains(@href, '/content/images/89c4658883e24c1891a0c28a87a7fac4')]'.&#xD;
+&#xD;
+2019-10-18 11:18:36 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[2]/div[2]/div[2]/div/div[2]/ul/li[3]/a'.&#xD;
+&#xD;
+2019-10-18 11:18:47 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath, reason: (y + height) is outside of Raster&#xD;
+&#xD;
+2019-10-18 11:18:47 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//a[contains(text(),'Edit')]'.&#xD;
+&#xD;
+2019-10-18 11:18:47 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!&#xD;
+&#xD;
+2019-10-18 11:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Edit' is clicked on&#xD;
+&#xD;
+2019-10-18 11:18:49 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Edit Image/label_Transaction")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Edit Image/label_Transaction' is clicked on&#xD;
+&#xD;
+2019-10-18 11:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Edit Image/label_Transaction' is clicked on&#xD;
+&#xD;
+2019-10-18 11:19:19 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Edit Image/button_Save")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Edit Image/button_Save' is clicked on&#xD;
+&#xD;
+2019-10-18 11:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Edit Image/button_Save' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image" classname="Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image" status="PASSED">
+            <system-out>2019-10-18 11:19:23 - [TEST_CASE][PASSED] - Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image: Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image&#xD;
+&#xD;
+2019-10-18 11:19:23 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image/Page_Images/div_Most Recent Uploads_library-table-checkbox no-label checkbox")): NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image/Page_Images/div_Most Recent Uploads_library-table-checkbox no-label checkbox"))&#xD;
+&#xD;
+2019-10-18 11:19:23 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image/Page_Images/div_Most Recent Uploads_library-table-checkbox no-label checkbox"))&#xD;
+&#xD;
+2019-10-18 11:19:23 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image/Page_Images/button_Archive")): NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image/Page_Images/button_Archive"))&#xD;
+&#xD;
+2019-10-18 11:19:23 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image/Page_Images/button_Archive"))&#xD;
+&#xD;
+2019-10-18 11:19:23 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image/Page_Images/button_Yes")): NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image/Page_Images/button_Yes"))&#xD;
+&#xD;
+2019-10-18 11:19:23 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image/Page_Images/button_Yes"))</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/UI Test Scenarios/Modules/Logout/GSM Logout" classname="Test Cases/UI Test Scenarios/Modules/Logout/GSM Logout" status="PASSED">
+            <system-out>2019-10-18 11:19:24 - [TEST_CASE][PASSED] - Test Cases/UI Test Scenarios/Modules/Logout/GSM Logout: Test Cases/UI Test Scenarios/Modules/Logout/GSM Logout&#xD;
+&#xD;
+2019-10-18 11:19:24 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4")): Object: 'Object Repository/UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4' is clicked on&#xD;
+&#xD;
+2019-10-18 11:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4' is clicked on&#xD;
+&#xD;
+2019-10-18 11:19:28 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Log Out")): Object: 'Object Repository/UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Log Out' is clicked on&#xD;
+&#xD;
+2019-10-18 11:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Log Out' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-18 11:14:31 - [TEST_SUITE][INCOMPLETE] - Regression Images: null</system-out>
+        <system-err>2019-10-18 11:14:31 - [TEST_SUITE][INCOMPLETE] - Regression Images: null</system-err>
+    </testsuite>
+</testsuites>

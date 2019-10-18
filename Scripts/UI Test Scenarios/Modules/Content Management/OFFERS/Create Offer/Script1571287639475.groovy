@@ -20,14 +20,16 @@ WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/
 
 WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/a_New Offer'))
 
-WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Offer Name_name'), 'abc')
+WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Offer Name_name'), 
+    'abc')
 
 WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Marketing Category_marketingCategory'))
 
-WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Offer Description_description'), 'abc')
+WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Offer Description_description'), 
+    'abc')
 
 WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration'), 
-    '10/15/2019')
+    '10/20/2019')
 
 WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Select'))
 
@@ -35,13 +37,17 @@ WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/
 
 WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Next'))
 
-WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Title_title'), 'abc')
+WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Title_title'), 
+    'abc')
 
-WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Subtitle_subtitle'), 'abc')
+WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Subtitle_subtitle'), 
+    'abc')
 
-WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Body_body'), 'abc')
+WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Body_body'), 
+    'abc')
 
-WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Offer_offer'), '123')
+WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Offer_offer'), 
+    '123')
 
 WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Select_1'))
 

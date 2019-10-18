@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Images,Chrome 77.0.3865.120,,,2019-10-18 11:14:31,2019-10-18 11:19:32,5m - 0.750s,INCOMPLETE
+,,,,,,,
+Test Cases/UI Test Scenarios/Modules/Login/GSM Login,Chrome 77.0.3865.120,,,2019-10-18 11:14:32,2019-10-18 11:15:37,1m - 5.268s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-18 11:14:32,2019-10-18 11:14:44,11.306s,PASSED
+navigateToUrl(url),Chrome 77.0.3865.120,,,2019-10-18 11:14:44,2019-10-18 11:14:49,5.671s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2019-10-18 11:14:49,2019-10-18 11:14:56,6.192s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/GSM Login/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.120,,,2019-10-18 11:14:56,2019-10-18 11:15:03,7.673s,PASSED
+delay(3),Chrome 77.0.3865.120,,,2019-10-18 11:15:03,2019-10-18 11:15:06,3.039s,PASSED
+"setText(findTestObject(""UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Email Address_email""), username)",Chrome 77.0.3865.120,,,2019-10-18 11:15:06,2019-10-18 11:15:13,6.567s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2019-10-18 11:15:13,2019-10-18 11:15:15,2.005s,PASSED
+"setText(findTestObject(""UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Password_password""), password)",Chrome 77.0.3865.120,,,2019-10-18 11:15:15,2019-10-18 11:15:21,6.379s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/GSM Login/Page_GSM Login/button_Log In""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:21,2019-10-18 11:15:26,4.244s,PASSED
+delay(5),Chrome 77.0.3865.120,,,2019-10-18 11:15:26,2019-10-18 11:15:31,5.003s,PASSED
+"verifyElementText(findTestObject(""UI Test Scenarios/Modules/GSM Login/div_Welcome Sankaran""), ""Welcome, Sankaran"")",Chrome 77.0.3865.120,,,2019-10-18 11:15:31,2019-10-18 11:15:37,6.726s,PASSED
+,,,,,,,
+Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Upload Image,Chrome 77.0.3865.120,,,2019-10-18 11:15:37,2019-10-18 11:15:38,0.390s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Dashboard/div_Content""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:15:38,0.016s,NOT_RUN
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Templates/a_Images""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:15:38,0.002s,NOT_RUN
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Upload""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:15:38,0.001s,NOT_RUN
+"setText(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/input_Image Name_image-group-0-name""), ""innova"")",Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:15:38,0.002s,NOT_RUN
+"com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/div_Select Files""), ""C:\Users\Dell\Pictures\Innova.jpg"")",Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:15:38,0.000s,NOT_RUN
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/button_Select""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:15:38,0.000s,NOT_RUN
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/a_Email""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:15:38,0.000s,NOT_RUN
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/button_Select_1""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:15:38,0.000s,NOT_RUN
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/a_English (US)""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:15:38,0.000s,NOT_RUN
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/input_Marketing Category_image-group-0-marketingCategory""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:15:38,0.000s,NOT_RUN
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Upload Images/button_Finish Upload""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:15:38,0.000s,NOT_RUN
+,,,,,,,
+Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image,Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:19:23,3m - 45.430s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Dashboard/div_Content""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:38,2019-10-18 11:15:42,4.211s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Templates/a_Images""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:42,2019-10-18 11:15:46,4.257s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/button_Local_dropdown-toggle btn btn-icon btn-light""))",Chrome 77.0.3865.120,,,2019-10-18 11:15:46,2019-10-18 11:15:56,9.313s,PASSED
+"scrollToElement(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Edit""), 0)",Chrome 77.0.3865.120,,,2019-10-18 11:15:56,2019-10-18 11:17:23,1m - 26.785s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Edit""))",Chrome 77.0.3865.120,,,2019-10-18 11:17:23,2019-10-18 11:18:49,1m - 26.419s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Edit Image/label_Transaction""))",Chrome 77.0.3865.120,,,2019-10-18 11:18:49,2019-10-18 11:19:19,29.863s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Edit Image/button_Save""))",Chrome 77.0.3865.120,,,2019-10-18 11:19:19,2019-10-18 11:19:23,4.302s,PASSED
+,,,,,,,
+Test Cases/UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image,Chrome 77.0.3865.120,,,2019-10-18 11:19:23,2019-10-18 11:19:23,0.217s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image/Page_Images/div_Most Recent Uploads_library-table-checkbox no-label checkbox""))",Chrome 77.0.3865.120,,,2019-10-18 11:19:23,2019-10-18 11:19:23,0.001s,NOT_RUN
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image/Page_Images/button_Archive""))",Chrome 77.0.3865.120,,,2019-10-18 11:19:23,2019-10-18 11:19:23,0.001s,NOT_RUN
+"click(findTestObject(""UI Test Scenarios/Modules/Content Management/IMAGES/Archive Image/Page_Images/button_Yes""))",Chrome 77.0.3865.120,,,2019-10-18 11:19:23,2019-10-18 11:19:23,0.002s,NOT_RUN
+,,,,,,,
+Test Cases/UI Test Scenarios/Modules/Logout/GSM Logout,Chrome 77.0.3865.120,,,2019-10-18 11:19:24,2019-10-18 11:19:32,8.652s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4""))",Chrome 77.0.3865.120,,,2019-10-18 11:19:24,2019-10-18 11:19:28,4.178s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Log Out""))",Chrome 77.0.3865.120,,,2019-10-18 11:19:28,2019-10-18 11:19:32,4.299s,PASSED

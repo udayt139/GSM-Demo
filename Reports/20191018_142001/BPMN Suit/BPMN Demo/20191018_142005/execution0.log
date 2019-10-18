@@ -1,0 +1,2717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-18T14:28:00</date>
+  <millis>1571389080928</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/BPMN Suit/BPMN Demo</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">BPMN Demo</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/BPMN Suit/BPMN Demo</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:00</date>
+  <millis>1571389080944</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Dell - DESKTOP-A4R0EHC</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Dell - DESKTOP-A4R0EHC</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:00</date>
+  <millis>1571389080944</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:00</date>
+  <millis>1571389080945</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.110</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.110</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:00</date>
+  <millis>1571389080946</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.3.11</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:01</date>
+  <millis>1571389081283</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Demo Samples/BPMN Demo/bpmn Demo 1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Demo Samples/BPMN Demo/bpmn Demo 1</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Demo Samples/BPMN Demo/bpmn Demo 1</property>
+  <property name="source">C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Test Cases\\Demo Samples\\BPMN Demo\\bpmn Demo 1.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:02</date>
+  <millis>1571389082175</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:02</date>
+  <millis>1571389082468</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:02</date>
+  <millis>1571389082521</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 2 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:11</date>
+  <millis>1571389091783</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 2270cf83713c7618bb17ea1a80ce5ad6</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">2270cf83713c7618bb17ea1a80ce5ad6</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:13</date>
+  <millis>1571389093817</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 77.0.3865.120</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 77.0.3865.120</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:13</date>
+  <millis>1571389093819</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:13</date>
+  <millis>1571389093820</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:13</date>
+  <millis>1571389093822</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:13</date>
+  <millis>1571389093823</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:13</date>
+  <millis>1571389093825</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:13</date>
+  <millis>1571389093825</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://demo.bpmn.io/new\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:19</date>
+  <millis>1571389099596</millis>
+  <sequence>23</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://demo.bpmn.io/new&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:19</date>
+  <millis>1571389099598</millis>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://demo.bpmn.io/new\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:19</date>
+  <millis>1571389099599</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:24</date>
+  <millis>1571389104101</millis>
+  <sequence>32</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:24</date>
+  <millis>1571389104104</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:24</date>
+  <millis>1571389104106</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:28</date>
+  <millis>1571389108682</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:28</date>
+  <millis>1571389108685</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:28</date>
+  <millis>1571389108686</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-intermediate-event-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:33</date>
+  <millis>1571389113042</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-intermediate-event-none&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:33</date>
+  <millis>1571389113045</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-intermediate-event-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:33</date>
+  <millis>1571389113046</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:37</date>
+  <millis>1571389117349</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=400 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:37</date>
+  <millis>1571389117350</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:37</date>
+  <millis>1571389117351</millis>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-end-event-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:41</date>
+  <millis>1571389121602</millis>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-end-event-none&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:41</date>
+  <millis>1571389121603</millis>
+  <sequence>71</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-end-event-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:41</date>
+  <millis>1571389121603</millis>
+  <sequence>72</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 500, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:45</date>
+  <millis>1571389125910</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=500 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:45</date>
+  <millis>1571389125913</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 500, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:45</date>
+  <millis>1571389125914</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:50</date>
+  <millis>1571389130232</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:50</date>
+  <millis>1571389130235</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:50</date>
+  <millis>1571389130236</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:54</date>
+  <millis>1571389134516</millis>
+  <sequence>99</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:54</date>
+  <millis>1571389134517</millis>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:54</date>
+  <millis>1571389134518</millis>
+  <sequence>101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-10-18T14:28:58</date>
+  <millis>1571389138862</millis>
+  <sequence>109</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=400 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:58</date>
+  <millis>1571389138865</millis>
+  <sequence>110</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:28:58</date>
+  <millis>1571389138865</millis>
+  <sequence>111</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:03</date>
+  <millis>1571389143117</millis>
+  <sequence>118</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:03</date>
+  <millis>1571389143119</millis>
+  <sequence>119</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:03</date>
+  <millis>1571389143120</millis>
+  <sequence>120</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:07</date>
+  <millis>1571389147469</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=400 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:07</date>
+  <millis>1571389147470</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:07</date>
+  <millis>1571389147471</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 500, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:11</date>
+  <millis>1571389151784</millis>
+  <sequence>138</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=500 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:11</date>
+  <millis>1571389151785</millis>
+  <sequence>139</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 500, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:11</date>
+  <millis>1571389151787</millis>
+  <sequence>140</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-gateway-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:16</date>
+  <millis>1571389156082</millis>
+  <sequence>147</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-gateway-none&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:16</date>
+  <millis>1571389156085</millis>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-gateway-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:16</date>
+  <millis>1571389156086</millis>
+  <sequence>149</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 150)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:20</date>
+  <millis>1571389160395</millis>
+  <sequence>157</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=400 and y=150</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:20</date>
+  <millis>1571389160398</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 150)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:20</date>
+  <millis>1571389160399</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-task\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:24</date>
+  <millis>1571389164752</millis>
+  <sequence>166</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-task&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:24</date>
+  <millis>1571389164754</millis>
+  <sequence>167</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-task\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:24</date>
+  <millis>1571389164755</millis>
+  <sequence>168</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 250)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:29</date>
+  <millis>1571389169054</millis>
+  <sequence>176</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=400 and y=250</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:29</date>
+  <millis>1571389169056</millis>
+  <sequence>177</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 250)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:29</date>
+  <millis>1571389169057</millis>
+  <sequence>178</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-data-object\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:33</date>
+  <millis>1571389173332</millis>
+  <sequence>185</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-data-object&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:33</date>
+  <millis>1571389173334</millis>
+  <sequence>186</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-data-object\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:33</date>
+  <millis>1571389173334</millis>
+  <sequence>187</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 150)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:37</date>
+  <millis>1571389177638</millis>
+  <sequence>195</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=150</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:37</date>
+  <millis>1571389177640</millis>
+  <sequence>196</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 150)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:37</date>
+  <millis>1571389177641</millis>
+  <sequence>197</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-data-store\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">67</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:42</date>
+  <millis>1571389182065</millis>
+  <sequence>204</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-data-store&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:42</date>
+  <millis>1571389182066</millis>
+  <sequence>205</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-data-store\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:42</date>
+  <millis>1571389182067</millis>
+  <sequence>206</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, -50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">69</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:46</date>
+  <millis>1571389186336</millis>
+  <sequence>214</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=-50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:46</date>
+  <millis>1571389186337</millis>
+  <sequence>215</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, -50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:46</date>
+  <millis>1571389186338</millis>
+  <sequence>216</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-subprocess-expanded\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:50</date>
+  <millis>1571389190656</millis>
+  <sequence>223</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-subprocess-expanded&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:50</date>
+  <millis>1571389190658</millis>
+  <sequence>224</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-subprocess-expanded\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:50</date>
+  <millis>1571389190658</millis>
+  <sequence>225</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 700, 150)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:54</date>
+  <millis>1571389194960</millis>
+  <sequence>233</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=700 and y=150</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:54</date>
+  <millis>1571389194961</millis>
+  <sequence>234</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 700, 150)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:54</date>
+  <millis>1571389194962</millis>
+  <sequence>235</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-participant\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">77</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2019-10-18T14:29:59</date>
+  <millis>1571389199307</millis>
+  <sequence>242</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-participant&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:59</date>
+  <millis>1571389199309</millis>
+  <sequence>243</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-participant\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:29:59</date>
+  <millis>1571389199310</millis>
+  <sequence>244</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 100)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">79</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:03</date>
+  <millis>1571389203713</millis>
+  <sequence>252</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=400 and y=100</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:03</date>
+  <millis>1571389203715</millis>
+  <sequence>253</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 100)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:03</date>
+  <millis>1571389203715</millis>
+  <sequence>254</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">82</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:07</date>
+  <millis>1571389207918</millis>
+  <sequence>261</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:07</date>
+  <millis>1571389207920</millis>
+  <sequence>262</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:07</date>
+  <millis>1571389207921</millis>
+  <sequence>263</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">84</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:12</date>
+  <millis>1571389212228</millis>
+  <sequence>271</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:12</date>
+  <millis>1571389212230</millis>
+  <sequence>272</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:12</date>
+  <millis>1571389212231</millis>
+  <sequence>273</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, -50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">87</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:16</date>
+  <millis>1571389216561</millis>
+  <sequence>281</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=-50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:16</date>
+  <millis>1571389216563</millis>
+  <sequence>282</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, -50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:16</date>
+  <millis>1571389216563</millis>
+  <sequence>283</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">90</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:20</date>
+  <millis>1571389220730</millis>
+  <sequence>290</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:20</date>
+  <millis>1571389220731</millis>
+  <sequence>291</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:20</date>
+  <millis>1571389220731</millis>
+  <sequence>292</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">92</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:25</date>
+  <millis>1571389225018</millis>
+  <sequence>300</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:25</date>
+  <millis>1571389225020</millis>
+  <sequence>301</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:25</date>
+  <millis>1571389225021</millis>
+  <sequence>302</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 150)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">95</property>
+  <property name="stepIndex">32</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:29</date>
+  <millis>1571389229311</millis>
+  <sequence>310</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=150</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:29</date>
+  <millis>1571389229312</millis>
+  <sequence>311</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 150)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:29</date>
+  <millis>1571389229313</millis>
+  <sequence>312</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">98</property>
+  <property name="stepIndex">33</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:33</date>
+  <millis>1571389233523</millis>
+  <sequence>319</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:33</date>
+  <millis>1571389233524</millis>
+  <sequence>320</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:33</date>
+  <millis>1571389233524</millis>
+  <sequence>321</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">100</property>
+  <property name="stepIndex">34</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:37</date>
+  <millis>1571389237781</millis>
+  <sequence>329</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=400 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:37</date>
+  <millis>1571389237782</millis>
+  <sequence>330</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:37</date>
+  <millis>1571389237782</millis>
+  <sequence>331</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 150)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">103</property>
+  <property name="stepIndex">35</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:42</date>
+  <millis>1571389242103</millis>
+  <sequence>339</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=400 and y=150</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:42</date>
+  <millis>1571389242105</millis>
+  <sequence>340</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 150)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:42</date>
+  <millis>1571389242106</millis>
+  <sequence>341</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">106</property>
+  <property name="stepIndex">36</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:46</date>
+  <millis>1571389246359</millis>
+  <sequence>348</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:46</date>
+  <millis>1571389246361</millis>
+  <sequence>349</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:46</date>
+  <millis>1571389246362</millis>
+  <sequence>350</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 150)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">108</property>
+  <property name="stepIndex">37</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:50</date>
+  <millis>1571389250637</millis>
+  <sequence>358</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=400 and y=150</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:50</date>
+  <millis>1571389250640</millis>
+  <sequence>359</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 150)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:50</date>
+  <millis>1571389250641</millis>
+  <sequence>360</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 250)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">111</property>
+  <property name="stepIndex">38</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:54</date>
+  <millis>1571389254995</millis>
+  <sequence>368</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=400 and y=250</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:54</date>
+  <millis>1571389254997</millis>
+  <sequence>369</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 250)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:54</date>
+  <millis>1571389254997</millis>
+  <sequence>370</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">114</property>
+  <property name="stepIndex">39</property>
+</record>
+<record>
+  <date>2019-10-18T14:30:59</date>
+  <millis>1571389259214</millis>
+  <sequence>377</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:59</date>
+  <millis>1571389259217</millis>
+  <sequence>378</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:30:59</date>
+  <millis>1571389259218</millis>
+  <sequence>379</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 150)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">116</property>
+  <property name="stepIndex">40</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:03</date>
+  <millis>1571389263490</millis>
+  <sequence>387</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=400 and y=150</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:03</date>
+  <millis>1571389263491</millis>
+  <sequence>388</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 400, 150)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:03</date>
+  <millis>1571389263492</millis>
+  <sequence>389</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 700, 150)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">119</property>
+  <property name="stepIndex">41</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:07</date>
+  <millis>1571389267877</millis>
+  <sequence>397</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=700 and y=150</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:07</date>
+  <millis>1571389267878</millis>
+  <sequence>398</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 700, 150)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:07</date>
+  <millis>1571389267879</millis>
+  <sequence>399</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Demo Samples/BPMN Demo/bpmn Demo 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:07</date>
+  <millis>1571389267881</millis>
+  <sequence>400</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Demo Samples/BPMN Demo/bpmn Demo 1</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:07</date>
+  <millis>1571389267898</millis>
+  <sequence>401</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Demo Samples/BPMN Demo/bpmn Demo 2</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Demo Samples/BPMN Demo/bpmn Demo 2</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Demo Samples/BPMN Demo/bpmn Demo 2</property>
+  <property name="source">C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Test Cases\\Demo Samples\\BPMN Demo\\bpmn Demo 2.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:08</date>
+  <millis>1571389268232</millis>
+  <sequence>403</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:08</date>
+  <millis>1571389268236</millis>
+  <sequence>405</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:11</date>
+  <millis>1571389271005</millis>
+  <sequence>406</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:18</date>
+  <millis>1571389278395</millis>
+  <sequence>409</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 7dbaeff65cbbd91794d6125dd2e3f9bd</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">7dbaeff65cbbd91794d6125dd2e3f9bd</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:20</date>
+  <millis>1571389280471</millis>
+  <sequence>410</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 77.0.3865.120</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 77.0.3865.120</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:20</date>
+  <millis>1571389280472</millis>
+  <sequence>411</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:20</date>
+  <millis>1571389280473</millis>
+  <sequence>412</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:20</date>
+  <millis>1571389280475</millis>
+  <sequence>413</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:20</date>
+  <millis>1571389280476</millis>
+  <sequence>414</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:20</date>
+  <millis>1571389280477</millis>
+  <sequence>415</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:20</date>
+  <millis>1571389280477</millis>
+  <sequence>416</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://demo.bpmn.io/new\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:25</date>
+  <millis>1571389285496</millis>
+  <sequence>419</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://demo.bpmn.io/new&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:25</date>
+  <millis>1571389285497</millis>
+  <sequence>420</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://demo.bpmn.io/new\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:25</date>
+  <millis>1571389285497</millis>
+  <sequence>421</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:29</date>
+  <millis>1571389289758</millis>
+  <sequence>428</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:29</date>
+  <millis>1571389289759</millis>
+  <sequence>429</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:29</date>
+  <millis>1571389289759</millis>
+  <sequence>430</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:34</date>
+  <millis>1571389294076</millis>
+  <sequence>438</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:34</date>
+  <millis>1571389294078</millis>
+  <sequence>439</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:34</date>
+  <millis>1571389294078</millis>
+  <sequence>440</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-intermediate-event-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:38</date>
+  <millis>1571389298443</millis>
+  <sequence>447</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-intermediate-event-none&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:38</date>
+  <millis>1571389298445</millis>
+  <sequence>448</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-intermediate-event-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:38</date>
+  <millis>1571389298445</millis>
+  <sequence>449</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-gateway-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:42</date>
+  <millis>1571389302708</millis>
+  <sequence>456</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-gateway-none&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:42</date>
+  <millis>1571389302709</millis>
+  <sequence>457</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-gateway-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:42</date>
+  <millis>1571389302709</millis>
+  <sequence>458</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-end-event-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:46</date>
+  <millis>1571389306989</millis>
+  <sequence>465</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-end-event-none&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:46</date>
+  <millis>1571389306990</millis>
+  <sequence>466</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-end-event-none\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:46</date>
+  <millis>1571389306991</millis>
+  <sequence>467</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:51</date>
+  <millis>1571389311268</millis>
+  <sequence>475</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:51</date>
+  <millis>1571389311270</millis>
+  <sequence>476</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:51</date>
+  <millis>1571389311271</millis>
+  <sequence>477</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-screw-wrench\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:55</date>
+  <millis>1571389315624</millis>
+  <sequence>484</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-screw-wrench&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:55</date>
+  <millis>1571389315626</millis>
+  <sequence>485</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-screw-wrench\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:55</date>
+  <millis>1571389315627</millis>
+  <sequence>486</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Conditional Start Event\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-10-18T14:31:59</date>
+  <millis>1571389319942</millis>
+  <sequence>493</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Conditional Start Event&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:59</date>
+  <millis>1571389319943</millis>
+  <sequence>494</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/1/Page_bpmn modeler  demobpmnio/div_Conditional Start Event\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:31:59</date>
+  <millis>1571389319944</millis>
+  <sequence>495</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:04</date>
+  <millis>1571389324188</millis>
+  <sequence>503</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:04</date>
+  <millis>1571389324190</millis>
+  <sequence>504</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:04</date>
+  <millis>1571389324191</millis>
+  <sequence>505</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-data-object\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:08</date>
+  <millis>1571389328495</millis>
+  <sequence>512</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-data-object&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:08</date>
+  <millis>1571389328496</millis>
+  <sequence>513</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-data-object\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:08</date>
+  <millis>1571389328497</millis>
+  <sequence>514</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, -50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:12</date>
+  <millis>1571389332791</millis>
+  <sequence>522</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=-50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:12</date>
+  <millis>1571389332792</millis>
+  <sequence>523</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, -50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:12</date>
+  <millis>1571389332793</millis>
+  <sequence>524</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:17</date>
+  <millis>1571389337013</millis>
+  <sequence>531</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:17</date>
+  <millis>1571389337014</millis>
+  <sequence>532</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:17</date>
+  <millis>1571389337015</millis>
+  <sequence>533</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:21</date>
+  <millis>1571389341311</millis>
+  <sequence>541</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:21</date>
+  <millis>1571389341313</millis>
+  <sequence>542</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:21</date>
+  <millis>1571389341313</millis>
+  <sequence>543</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, -50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:25</date>
+  <millis>1571389345648</millis>
+  <sequence>551</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=-50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:25</date>
+  <millis>1571389345649</millis>
+  <sequence>552</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, -50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:25</date>
+  <millis>1571389345649</millis>
+  <sequence>553</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-data-store\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:29</date>
+  <millis>1571389349938</millis>
+  <sequence>560</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-data-store&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:29</date>
+  <millis>1571389349939</millis>
+  <sequence>561</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-data-store\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:29</date>
+  <millis>1571389349939</millis>
+  <sequence>562</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 150)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:34</date>
+  <millis>1571389354210</millis>
+  <sequence>570</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=150</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:34</date>
+  <millis>1571389354211</millis>
+  <sequence>571</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 150)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:34</date>
+  <millis>1571389354212</millis>
+  <sequence>572</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:38</date>
+  <millis>1571389358482</millis>
+  <sequence>579</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:38</date>
+  <millis>1571389358484</millis>
+  <sequence>580</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-connection-multi highlighted-entry\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:38</date>
+  <millis>1571389358485</millis>
+  <sequence>581</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">61</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:42</date>
+  <millis>1571389362824</millis>
+  <sequence>589</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:42</date>
+  <millis>1571389362826</millis>
+  <sequence>590</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:42</date>
+  <millis>1571389362827</millis>
+  <sequence>591</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 150)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:47</date>
+  <millis>1571389367124</millis>
+  <sequence>599</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none&amp;apos; is clicked on using offset x=300 and y=150</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:47</date>
+  <millis>1571389367126</millis>
+  <sequence>600</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-start-event-none\&amp;quot;), 300, 150)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:47</date>
+  <millis>1571389367127</millis>
+  <sequence>601</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-participant\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">67</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:51</date>
+  <millis>1571389371386</millis>
+  <sequence>608</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-participant&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:51</date>
+  <millis>1571389371387</millis>
+  <sequence>609</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-participant\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:51</date>
+  <millis>1571389371388</millis>
+  <sequence>610</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-participant\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">69</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:55</date>
+  <millis>1571389375682</millis>
+  <sequence>618</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-participant&amp;apos; is clicked on using offset x=300 and y=50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:55</date>
+  <millis>1571389375683</millis>
+  <sequence>619</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : clickOffset(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/div_Import Error Details_entry bpmn-icon-participant\&amp;quot;), 300, 50)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:55</date>
+  <millis>1571389375683</millis>
+  <sequence>620</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/span_Import Error Details_icon-download\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2019-10-18T14:32:59</date>
+  <millis>1571389379997</millis>
+  <sequence>627</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/span_Import Error Details_icon-download&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:59</date>
+  <millis>1571389379998</millis>
+  <sequence>628</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/span_Import Error Details_icon-download\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:32:59</date>
+  <millis>1571389379998</millis>
+  <sequence>629</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/span_Import Error Details_icon-open\&amp;quot;), \&amp;quot;C:\\Users\\Dell\\Downloads\\diagram.bpmn\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2019-10-18T14:33:00</date>
+  <millis>1571389380085</millis>
+  <sequence>632</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>com.kms.katalon.keyword.uploadfile.UploadFile</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">java.lang.ClassNotFoundException</property>
+  <property name="failed.exception.stacktrace">java.lang.ClassNotFoundException: com.kms.katalon.keyword.uploadfile.UploadFile\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)\r\n\tat bpmn Demo 2.run(bpmn Demo 2:74)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1571388605750.run(TempTestSuite1571388605750.groovy:35)\r\n</property>
+  <property name="failed.exception.message">com.kms.katalon.keyword.uploadfile.UploadFile</property>
+</record>
+<record>
+  <date>2019-10-18T14:33:00</date>
+  <millis>1571389380086</millis>
+  <sequence>633</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot(findTestObject(\&amp;quot;Demo Samples/BPMN Demo/bpmn Demo 2/Page_bpmn modeler  demobpmnio/span_Import Error Details_icon-open\&amp;quot;), \&amp;quot;C:\\Users\\Dell\\Downloads\\diagram.bpmn\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:33:00</date>
+  <millis>1571389380087</millis>
+  <sequence>635</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Demo Samples/BPMN Demo/bpmn Demo 2 FAILED.\nReason:\njava.lang.ClassNotFoundException: com.kms.katalon.keyword.uploadfile.UploadFile\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)\r\n\tat bpmn Demo 2.run(bpmn Demo 2:74)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1571388605750.run(TempTestSuite1571388605750.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.ClassNotFoundException: com.kms.katalon.keyword.uploadfile.UploadFile</message>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>getCustomKeywordClassAndSetMetaClass</method>
+      <line>100</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>45</line>
+    </frame>
+    <frame>
+      <class>bpmn Demo 2</class>
+      <method>run</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1571388605750</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">java.lang.ClassNotFoundException: com.kms.katalon.keyword.uploadfile.UploadFile\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.getCustomKeywordClassAndSetMetaClass(CustomKeywordDelegatingMetaClass.java:100)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:45)\r\n\tat bpmn Demo 2.run(bpmn Demo 2:74)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1571388605750.run(TempTestSuite1571388605750.groovy:35)\r\n</property>
+  <property name="failed.exception.class">java.lang.ClassNotFoundException</property>
+  <property name="failed.exception.message">com.kms.katalon.keyword.uploadfile.UploadFile</property>
+</record>
+<record>
+  <date>2019-10-18T14:33:00</date>
+  <millis>1571389380089</millis>
+  <sequence>637</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Demo Samples/BPMN Demo/bpmn Demo 2</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T14:33:02</date>
+  <millis>1571389382867</millis>
+  <sequence>638</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/BPMN Suit/BPMN Demo</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

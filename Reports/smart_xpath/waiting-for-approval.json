@@ -13,6 +13,20 @@
       "testObjectId": "Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Images/a_Edit",
       "brokenXPath": "//div[@id\u003d\u0027image-menu-89c4658883e24c1891a0c28a87a7fac4\u0027]/div[2]/ul/li[3]/a",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": false,
+      "proposedXPath": "//div[@id\u003d\u0027app\u0027]/main/div/div[2]/div[2]/div[3]/div/table/tbody/tr[2]/td[2]/div/a",
+      "testObjectId": "Object Repository/Assertion/Page_Offers/a_alex 10-16",
+      "brokenXPath": "//div[@id\u003d\u0027app\u0027]/main/div/div[2]/div[2]/div[3]/div/table/tbody/tr[2]/td[2]/div/a",
+      "pathToScreenshot": "C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath/Object Repository/Assertion/Page_Offers/a_alex 10-16_idRelative.png"
+    },
+    {
+      "approved": false,
+      "proposedXPath": "//a[contains(text(),\u0027alex 10-16-1\u0027)]",
+      "testObjectId": "Object Repository/Assertion/Page_Offers/a_alex 10-16-1",
+      "brokenXPath": "//div[@id\u003d\u0027app\u0027]/main/div/div[2]/div[2]/div[2]/div/table/tbody/tr/td[2]/div/a",
+      "pathToScreenshot": "C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath/Object Repository/Assertion/Page_Offers/a_alex 10-16-1_link.png"
     }
   ]
 }
