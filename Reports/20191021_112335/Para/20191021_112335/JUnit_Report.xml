@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Para" time="447" tests="3" failures="0" errors="0">
+    <testsuite name="Para" tests="3" failures="0" errors="0" time="447" timestamp="2019-10-21 11:23:44" hostname="Dell - DESKTOP-A4R0EHC" id="Test Suites/Para">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191021_112335\\Para\\20191021_112335"/>
+            <property name="logFiles" value="C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191021_112335\\Para\\20191021_112335\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Dell - DESKTOP-A4R0EHC"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 77.0.3865.120"/>
+            <property name="hostAddress" value="192.168.0.110"/>
+            <property name="sessionId" value="9bf97d15fc1105e78de3d2cb14ec2719"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Para" classname="Test Cases/Para" status="PASSED">
+            <system-out>2019-10-21 11:23:45 - [TEST_CASE][PASSED] - Test Cases/Para: Test Cases/Para&#xD;
+&#xD;
+2019-10-21 11:23:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-21 11:23:46 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-10-21 11:23:46 - [MESSAGE][INFO] - Action delay is set to 2 seconds&#xD;
+&#xD;
+2019-10-21 11:23:57 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-21 11:23:57 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-21 11:24:03 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-21 11:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_GSM Portal/button_Log in")): Object: 'Object Repository/Para/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-21 11:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-21 11:24:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_GSM Login/input_Email Address_email"), un): Text 'sankaran@totient.co.in' is set on object 'Object Repository/Para/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-21 11:24:17 - [MESSAGE][PASSED] - Text 'sankaran@totient.co.in' is set on object 'Object Repository/Para/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-21 11:24:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_GSM Login/input_Password_password"), pw): Text 'sandbox85!' is set on object 'Object Repository/Para/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-21 11:24:23 - [MESSAGE][PASSED] - Text 'sandbox85!' is set on object 'Object Repository/Para/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-21 11:24:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_GSM Login/button_Log In")): Object: 'Object Repository/Para/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-21 11:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-21 11:24:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Dashboard/div_Content")): Object: 'Object Repository/Para/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-21 11:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-21 11:24:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Templates/a_Offers")): Object: 'Object Repository/Para/Page_Templates/a_Offers' is clicked on&#xD;
+&#xD;
+2019-10-21 11:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Templates/a_Offers' is clicked on&#xD;
+&#xD;
+2019-10-21 11:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_New Offer")): Object: 'Object Repository/Para/Page_Offers/a_New Offer' is clicked on&#xD;
+&#xD;
+2019-10-21 11:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_New Offer' is clicked on&#xD;
+&#xD;
+2019-10-21 11:24:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Offer Name_name"), OfferName): Text 'abc1' is set on object 'Object Repository/Para/Page_Offers/input_Offer Name_name'&#xD;
+&#xD;
+2019-10-21 11:24:53 - [MESSAGE][PASSED] - Text 'abc1' is set on object 'Object Repository/Para/Page_Offers/input_Offer Name_name'&#xD;
+&#xD;
+2019-10-21 11:24:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory")): Object: 'Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory' is clicked on&#xD;
+&#xD;
+2019-10-21 11:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory' is clicked on&#xD;
+&#xD;
+2019-10-21 11:24:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Offer Description_description"), OfferDescription): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Offer Description_description'&#xD;
+&#xD;
+2019-10-21 11:25:04 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Offer Description_description'&#xD;
+&#xD;
+2019-10-21 11:25:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration"), "10/25/2019"): Text '10/25/2019' is set on object 'Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration'&#xD;
+&#xD;
+2019-10-21 11:25:10 - [MESSAGE][PASSED] - Text '10/25/2019' is set on object 'Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration'&#xD;
+&#xD;
+2019-10-21 11:25:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Select")): Object: 'Object Repository/Para/Page_Offers/button_Select' is clicked on&#xD;
+&#xD;
+2019-10-21 11:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Select' is clicked on&#xD;
+&#xD;
+2019-10-21 11:25:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_English (US)")): Object: 'Object Repository/Para/Page_Offers/a_English (US)' is clicked on&#xD;
+&#xD;
+2019-10-21 11:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_English (US)' is clicked on&#xD;
+&#xD;
+2019-10-21 11:25:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Next")): Object: 'Object Repository/Para/Page_Offers/button_Next' is clicked on&#xD;
+&#xD;
+2019-10-21 11:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Next' is clicked on&#xD;
+&#xD;
+2019-10-21 11:25:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Title_title"), Title): Text 'abc1' is set on object 'Object Repository/Para/Page_Offers/textarea_Title_title'&#xD;
+&#xD;
+2019-10-21 11:25:32 - [MESSAGE][PASSED] - Text 'abc1' is set on object 'Object Repository/Para/Page_Offers/textarea_Title_title'&#xD;
+&#xD;
+2019-10-21 11:25:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Subtitle_subtitle"), Subtitle): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Subtitle_subtitle'&#xD;
+&#xD;
+2019-10-21 11:25:39 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Subtitle_subtitle'&#xD;
+&#xD;
+2019-10-21 11:25:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Body_body"), Body): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Body_body'&#xD;
+&#xD;
+2019-10-21 11:25:45 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Body_body'&#xD;
+&#xD;
+2019-10-21 11:25:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Offer_offer"), OfferValue): Text '123' is set on object 'Object Repository/Para/Page_Offers/input_Offer_offer'&#xD;
+&#xD;
+2019-10-21 11:25:52 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Para/Page_Offers/input_Offer_offer'&#xD;
+&#xD;
+2019-10-21 11:25:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Select_1")): Object: 'Object Repository/Para/Page_Offers/button_Select_1' is clicked on&#xD;
+&#xD;
+2019-10-21 11:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Select_1' is clicked on&#xD;
+&#xD;
+2019-10-21 11:25:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_No Expiration Date")): Object: 'Object Repository/Para/Page_Offers/a_No Expiration Date' is clicked on&#xD;
+&#xD;
+2019-10-21 11:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_No Expiration Date' is clicked on&#xD;
+&#xD;
+2019-10-21 11:26:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Terms  Conditions_termsAndConditions"), TermsAndConditions): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Terms  Conditions_termsAndConditions'&#xD;
+&#xD;
+2019-10-21 11:26:07 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Terms  Conditions_termsAndConditions'&#xD;
+&#xD;
+2019-10-21 11:26:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Create")): Object: 'Object Repository/Para/Page_Offers/button_Create' is clicked on&#xD;
+&#xD;
+2019-10-21 11:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Create' is clicked on&#xD;
+&#xD;
+2019-10-21 11:26:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-10-21 11:26:14 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Para" classname="Test Cases/Para" status="PASSED">
+            <system-out>2019-10-21 11:26:14 - [TEST_CASE][PASSED] - Test Cases/Para: Test Cases/Para&#xD;
+&#xD;
+2019-10-21 11:26:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-21 11:26:14 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-10-21 11:26:24 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-21 11:26:24 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-21 11:26:31 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-21 11:26:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_GSM Portal/button_Log in")): Object: 'Object Repository/Para/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-21 11:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-21 11:26:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_GSM Login/input_Email Address_email"), un): Text 'sankaran@totient.co.in' is set on object 'Object Repository/Para/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-21 11:26:47 - [MESSAGE][PASSED] - Text 'sankaran@totient.co.in' is set on object 'Object Repository/Para/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-21 11:26:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_GSM Login/input_Password_password"), pw): Text 'sandbox85!' is set on object 'Object Repository/Para/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-21 11:26:53 - [MESSAGE][PASSED] - Text 'sandbox85!' is set on object 'Object Repository/Para/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-21 11:26:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_GSM Login/button_Log In")): Object: 'Object Repository/Para/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-21 11:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-21 11:26:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Dashboard/div_Content")): Object: 'Object Repository/Para/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Templates/a_Offers")): Object: 'Object Repository/Para/Page_Templates/a_Offers' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Templates/a_Offers' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_New Offer")): Object: 'Object Repository/Para/Page_Offers/a_New Offer' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_New Offer' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Offer Name_name"), OfferName): Text 'abc2' is set on object 'Object Repository/Para/Page_Offers/input_Offer Name_name'&#xD;
+&#xD;
+2019-10-21 11:27:23 - [MESSAGE][PASSED] - Text 'abc2' is set on object 'Object Repository/Para/Page_Offers/input_Offer Name_name'&#xD;
+&#xD;
+2019-10-21 11:27:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory")): Object: 'Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Offer Description_description"), OfferDescription): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Offer Description_description'&#xD;
+&#xD;
+2019-10-21 11:27:33 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Offer Description_description'&#xD;
+&#xD;
+2019-10-21 11:27:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration"), "10/25/2019"): Text '10/25/2019' is set on object 'Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration'&#xD;
+&#xD;
+2019-10-21 11:27:40 - [MESSAGE][PASSED] - Text '10/25/2019' is set on object 'Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration'&#xD;
+&#xD;
+2019-10-21 11:27:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Select")): Object: 'Object Repository/Para/Page_Offers/button_Select' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Select' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_English (US)")): Object: 'Object Repository/Para/Page_Offers/a_English (US)' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_English (US)' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Next")): Object: 'Object Repository/Para/Page_Offers/button_Next' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Next' is clicked on&#xD;
+&#xD;
+2019-10-21 11:27:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Title_title"), Title): Text 'abc2' is set on object 'Object Repository/Para/Page_Offers/textarea_Title_title'&#xD;
+&#xD;
+2019-10-21 11:28:02 - [MESSAGE][PASSED] - Text 'abc2' is set on object 'Object Repository/Para/Page_Offers/textarea_Title_title'&#xD;
+&#xD;
+2019-10-21 11:28:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Subtitle_subtitle"), Subtitle): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Subtitle_subtitle'&#xD;
+&#xD;
+2019-10-21 11:28:09 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Subtitle_subtitle'&#xD;
+&#xD;
+2019-10-21 11:28:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Body_body"), Body): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Body_body'&#xD;
+&#xD;
+2019-10-21 11:28:15 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Body_body'&#xD;
+&#xD;
+2019-10-21 11:28:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Offer_offer"), OfferValue): Text '123' is set on object 'Object Repository/Para/Page_Offers/input_Offer_offer'&#xD;
+&#xD;
+2019-10-21 11:28:22 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Para/Page_Offers/input_Offer_offer'&#xD;
+&#xD;
+2019-10-21 11:28:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Select_1")): Object: 'Object Repository/Para/Page_Offers/button_Select_1' is clicked on&#xD;
+&#xD;
+2019-10-21 11:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Select_1' is clicked on&#xD;
+&#xD;
+2019-10-21 11:28:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_No Expiration Date")): Object: 'Object Repository/Para/Page_Offers/a_No Expiration Date' is clicked on&#xD;
+&#xD;
+2019-10-21 11:28:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_No Expiration Date' is clicked on&#xD;
+&#xD;
+2019-10-21 11:28:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Terms  Conditions_termsAndConditions"), TermsAndConditions): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Terms  Conditions_termsAndConditions'&#xD;
+&#xD;
+2019-10-21 11:28:37 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Terms  Conditions_termsAndConditions'&#xD;
+&#xD;
+2019-10-21 11:28:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Create")): Object: 'Object Repository/Para/Page_Offers/button_Create' is clicked on&#xD;
+&#xD;
+2019-10-21 11:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Create' is clicked on&#xD;
+&#xD;
+2019-10-21 11:28:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-10-21 11:28:44 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Para" classname="Test Cases/Para" status="PASSED">
+            <system-out>2019-10-21 11:28:44 - [TEST_CASE][PASSED] - Test Cases/Para: Test Cases/Para&#xD;
+&#xD;
+2019-10-21 11:28:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-21 11:28:44 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-10-21 11:28:54 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-21 11:28:54 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-21 11:29:00 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-21 11:29:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_GSM Portal/button_Log in")): Object: 'Object Repository/Para/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-21 11:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-21 11:29:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_GSM Login/input_Email Address_email"), un): Text 'sankaran@totient.co.in' is set on object 'Object Repository/Para/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-21 11:29:14 - [MESSAGE][PASSED] - Text 'sankaran@totient.co.in' is set on object 'Object Repository/Para/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-21 11:29:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_GSM Login/input_Password_password"), pw): Text 'sandbox85!' is set on object 'Object Repository/Para/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-21 11:29:21 - [MESSAGE][PASSED] - Text 'sandbox85!' is set on object 'Object Repository/Para/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-21 11:29:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_GSM Login/button_Log In")): Object: 'Object Repository/Para/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-21 11:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-21 11:29:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Dashboard/div_Content")): Object: 'Object Repository/Para/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-21 11:29:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-21 11:29:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Templates/a_Offers")): Object: 'Object Repository/Para/Page_Templates/a_Offers' is clicked on&#xD;
+&#xD;
+2019-10-21 11:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Templates/a_Offers' is clicked on&#xD;
+&#xD;
+2019-10-21 11:29:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_New Offer")): Object: 'Object Repository/Para/Page_Offers/a_New Offer' is clicked on&#xD;
+&#xD;
+2019-10-21 11:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_New Offer' is clicked on&#xD;
+&#xD;
+2019-10-21 11:29:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Offer Name_name"), OfferName): Text 'abc3' is set on object 'Object Repository/Para/Page_Offers/input_Offer Name_name'&#xD;
+&#xD;
+2019-10-21 11:29:50 - [MESSAGE][PASSED] - Text 'abc3' is set on object 'Object Repository/Para/Page_Offers/input_Offer Name_name'&#xD;
+&#xD;
+2019-10-21 11:29:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory")): Object: 'Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory' is clicked on&#xD;
+&#xD;
+2019-10-21 11:29:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory' is clicked on&#xD;
+&#xD;
+2019-10-21 11:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Offer Description_description"), OfferDescription): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Offer Description_description'&#xD;
+&#xD;
+2019-10-21 11:30:01 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Offer Description_description'&#xD;
+&#xD;
+2019-10-21 11:30:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration"), "10/25/2019"): Text '10/25/2019' is set on object 'Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration'&#xD;
+&#xD;
+2019-10-21 11:30:08 - [MESSAGE][PASSED] - Text '10/25/2019' is set on object 'Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration'&#xD;
+&#xD;
+2019-10-21 11:30:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Select")): Object: 'Object Repository/Para/Page_Offers/button_Select' is clicked on&#xD;
+&#xD;
+2019-10-21 11:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Select' is clicked on&#xD;
+&#xD;
+2019-10-21 11:30:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_English (US)")): Object: 'Object Repository/Para/Page_Offers/a_English (US)' is clicked on&#xD;
+&#xD;
+2019-10-21 11:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_English (US)' is clicked on&#xD;
+&#xD;
+2019-10-21 11:30:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Next")): Object: 'Object Repository/Para/Page_Offers/button_Next' is clicked on&#xD;
+&#xD;
+2019-10-21 11:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Next' is clicked on&#xD;
+&#xD;
+2019-10-21 11:30:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Title_title"), Title): Text 'abc3' is set on object 'Object Repository/Para/Page_Offers/textarea_Title_title'&#xD;
+&#xD;
+2019-10-21 11:30:31 - [MESSAGE][PASSED] - Text 'abc3' is set on object 'Object Repository/Para/Page_Offers/textarea_Title_title'&#xD;
+&#xD;
+2019-10-21 11:30:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Subtitle_subtitle"), Subtitle): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Subtitle_subtitle'&#xD;
+&#xD;
+2019-10-21 11:30:37 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Subtitle_subtitle'&#xD;
+&#xD;
+2019-10-21 11:30:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Body_body"), Body): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Body_body'&#xD;
+&#xD;
+2019-10-21 11:30:44 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Body_body'&#xD;
+&#xD;
+2019-10-21 11:30:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Offer_offer"), OfferValue): Text '123' is set on object 'Object Repository/Para/Page_Offers/input_Offer_offer'&#xD;
+&#xD;
+2019-10-21 11:30:50 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Para/Page_Offers/input_Offer_offer'&#xD;
+&#xD;
+2019-10-21 11:30:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Select_1")): Object: 'Object Repository/Para/Page_Offers/button_Select_1' is clicked on&#xD;
+&#xD;
+2019-10-21 11:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Select_1' is clicked on&#xD;
+&#xD;
+2019-10-21 11:30:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_No Expiration Date")): Object: 'Object Repository/Para/Page_Offers/a_No Expiration Date' is clicked on&#xD;
+&#xD;
+2019-10-21 11:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_No Expiration Date' is clicked on&#xD;
+&#xD;
+2019-10-21 11:30:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Terms  Conditions_termsAndConditions"), TermsAndConditions): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Terms  Conditions_termsAndConditions'&#xD;
+&#xD;
+2019-10-21 11:31:05 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Terms  Conditions_termsAndConditions'&#xD;
+&#xD;
+2019-10-21 11:31:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Create")): Object: 'Object Repository/Para/Page_Offers/button_Create' is clicked on&#xD;
+&#xD;
+2019-10-21 11:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Create' is clicked on&#xD;
+&#xD;
+2019-10-21 11:31:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-10-21 11:31:12 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-21 11:23:44 - [TEST_SUITE][INCOMPLETE] - Para: null</system-out>
+        <system-err>2019-10-21 11:23:44 - [TEST_SUITE][INCOMPLETE] - Para: null</system-err>
+    </testsuite>
+</testsuites>

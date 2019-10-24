@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label</name>
+   <name>div_Content</name>
    <tag></tag>
-   <elementGuidId>2685f187-7845-40eb-a0be-02d7baaf6241</elementGuidId>
+   <elementGuidId>ec01f8f6-3f76-4520-bef3-7dcac3d10a55</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[text()='a2']/../../../td/div)[1]</value>
+         <value>//a[@id='app-panel-dropdown-0']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,48 +17,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Content</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[1]/div[@class=&quot;style__contentContainer___1ncku&quot;]/div[@class=&quot;bg-default&quot;]/div[@class=&quot;page-container&quot;]/div[@class=&quot;style__offerLibraryTable___2Ap2x&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table-rounded library-table table table-hover&quot;]/tbody[1]/tr[2]/td[1]/div[@class=&quot;library-table-checkbox no-label checkbox&quot;]/label[1]</value>
+      <value>id(&quot;app-panel-dropdown-0&quot;)/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div[2]/div[2]/div[3]/div/table/tbody/tr[2]/td/div/label</value>
+      <value>//a[@id='app-panel-dropdown-0']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[2]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Templates'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='a2'])[1]/preceding::label[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[3]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Offers'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td/div/label</value>
+      <value>//a/div</value>
    </webElementXpaths>
 </WebElementEntity>

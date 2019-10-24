@@ -22,7 +22,8 @@ WebUI.click(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_GS
 
 WebUI.setText(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_GSM Login/input_Email Address_email'), 'sankaran@totient.co.in')
 
-WebUI.setEncryptedText(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_GSM Login/input_Password_password'), '4bOuNFpH31s4Qkh1shYRow==')
+WebUI.setEncryptedText(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_GSM Login/input_Password_password'), 
+    '4bOuNFpH31s4Qkh1shYRow==')
 
 WebUI.click(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_GSM Login/button_Log In'))
 
@@ -30,9 +31,13 @@ WebUI.click(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_Da
 
 WebUI.click(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_Templates/a_Offers'))
 
-WebUI.check(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_Offers/label'))
+WebUI.check(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_Offers/abc1'))
 
-WebUI.scrollToElement(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_Offers/label_a1'), 0)
+WebUI.scrollToElement(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_Offers/abc2'), 0)
 
-WebUI.check(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_Offers/label_a1'))
+WebUI.check(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_Offers/abc2'))
+
+WebUI.scrollToElement(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_Offers/abc3'), 0)
+
+WebUI.check(findTestObject('Demo Samples/Actions Demo/Multiple Check Box/Page_Offers/abc3'))
 

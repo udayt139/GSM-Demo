@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Para" time="302" tests="0" failures="0" errors="3">
+    <testsuite name="Para" tests="0" failures="0" errors="3" time="302" timestamp="2019-10-21 11:14:59" hostname="Dell - DESKTOP-A4R0EHC" id="Test Suites/Para">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191021_111451\\Para\\20191021_111451"/>
+            <property name="logFiles" value="C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191021_111451\\Para\\20191021_111451\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Dell - DESKTOP-A4R0EHC"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 77.0.3865.120"/>
+            <property name="hostAddress" value="192.168.0.110"/>
+            <property name="sessionId" value="4b0b4f5d261c4408d309e7000981ed07"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Para" classname="Test Cases/Para" status="ERROR">
+            <error type="ERROR" message="Test Cases/Para FAILED.&#xA;Reason:&#xA;groovy.lang.MissingPropertyException: No such property: Title for class: Script1571633244667&#xD;&#xA;&#x9;at Para.run(Para:50)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1571636691064.run(TempTestSuite1571636691064.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-10-21 11:14:59 - [TEST_CASE][ERROR] - Test Cases/Para: Test Cases/Para FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Title for class: Script1571633244667&#xD;
+	at Para.run(Para:50)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1571636691064.run(TempTestSuite1571636691064.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-10-21 11:15:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-21 11:15:01 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-10-21 11:15:01 - [MESSAGE][INFO] - Action delay is set to 2 seconds&#xD;
+&#xD;
+2019-10-21 11:15:11 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-21 11:15:11 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-21 11:15:17 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-21 11:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_GSM Portal/button_Log in")): Object: 'Object Repository/Para/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-21 11:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-21 11:15:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_GSM Login/input_Email Address_email"), un): Text 'sankaran@totient.co.in' is set on object 'Object Repository/Para/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-21 11:15:32 - [MESSAGE][PASSED] - Text 'sankaran@totient.co.in' is set on object 'Object Repository/Para/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-21 11:15:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_GSM Login/input_Password_password"), pw): Text 'sandbox85!' is set on object 'Object Repository/Para/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-21 11:15:38 - [MESSAGE][PASSED] - Text 'sandbox85!' is set on object 'Object Repository/Para/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-21 11:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_GSM Login/button_Log In")): Object: 'Object Repository/Para/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-21 11:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-21 11:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Dashboard/div_Content")): Object: 'Object Repository/Para/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-21 11:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-21 11:15:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Templates/a_Offers")): Object: 'Object Repository/Para/Page_Templates/a_Offers' is clicked on&#xD;
+&#xD;
+2019-10-21 11:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Templates/a_Offers' is clicked on&#xD;
+&#xD;
+2019-10-21 11:15:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_New Offer")): Object: 'Object Repository/Para/Page_Offers/a_New Offer' is clicked on&#xD;
+&#xD;
+2019-10-21 11:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_New Offer' is clicked on&#xD;
+&#xD;
+2019-10-21 11:16:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Offer Name_name"), OfferName): Text 'abc1' is set on object 'Object Repository/Para/Page_Offers/input_Offer Name_name'&#xD;
+&#xD;
+2019-10-21 11:16:08 - [MESSAGE][PASSED] - Text 'abc1' is set on object 'Object Repository/Para/Page_Offers/input_Offer Name_name'&#xD;
+&#xD;
+2019-10-21 11:16:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory")): Object: 'Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory' is clicked on&#xD;
+&#xD;
+2019-10-21 11:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory' is clicked on&#xD;
+&#xD;
+2019-10-21 11:16:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Offer Description_description"), OfferDescription): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Offer Description_description'&#xD;
+&#xD;
+2019-10-21 11:16:18 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Offer Description_description'&#xD;
+&#xD;
+2019-10-21 11:16:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration"), "10/25/2019"): Text '10/25/2019' is set on object 'Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration'&#xD;
+&#xD;
+2019-10-21 11:16:25 - [MESSAGE][PASSED] - Text '10/25/2019' is set on object 'Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration'&#xD;
+&#xD;
+2019-10-21 11:16:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Select")): Object: 'Object Repository/Para/Page_Offers/button_Select' is clicked on&#xD;
+&#xD;
+2019-10-21 11:16:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Select' is clicked on&#xD;
+&#xD;
+2019-10-21 11:16:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_English (US)")): Object: 'Object Repository/Para/Page_Offers/a_English (US)' is clicked on&#xD;
+&#xD;
+2019-10-21 11:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_English (US)' is clicked on&#xD;
+&#xD;
+2019-10-21 11:16:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Next")): Object: 'Object Repository/Para/Page_Offers/button_Next' is clicked on&#xD;
+&#xD;
+2019-10-21 11:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Next' is clicked on&#xD;
+&#xD;
+2019-10-21 11:16:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Title_title"), Title): null</system-out>
+            <system-err>2019-10-21 11:14:59 - [TEST_CASE][ERROR] - Test Cases/Para: Test Cases/Para FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Title for class: Script1571633244667&#xD;
+	at Para.run(Para:50)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1571636691064.run(TempTestSuite1571636691064.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/Para" classname="Test Cases/Para" status="ERROR">
+            <error type="ERROR" message="Test Cases/Para FAILED.&#xA;Reason:&#xA;groovy.lang.MissingPropertyException: No such property: Title for class: Script1571633244667&#xD;&#xA;&#x9;at Para.run(Para:50)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1571636691064.run(TempTestSuite1571636691064.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-10-21 11:16:38 - [TEST_CASE][ERROR] - Test Cases/Para: Test Cases/Para FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Title for class: Script1571633244667&#xD;
+	at Para.run(Para:50)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1571636691064.run(TempTestSuite1571636691064.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-10-21 11:16:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-21 11:16:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-10-21 11:16:40 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-10-21 11:16:50 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-21 11:16:50 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-21 11:16:59 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-21 11:16:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_GSM Portal/button_Log in")): Object: 'Object Repository/Para/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-21 11:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-21 11:17:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_GSM Login/input_Email Address_email"), un): Text 'sankaran@totient.co.in' is set on object 'Object Repository/Para/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-21 11:17:13 - [MESSAGE][PASSED] - Text 'sankaran@totient.co.in' is set on object 'Object Repository/Para/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-21 11:17:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_GSM Login/input_Password_password"), pw): Text 'sandbox85!' is set on object 'Object Repository/Para/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-21 11:17:19 - [MESSAGE][PASSED] - Text 'sandbox85!' is set on object 'Object Repository/Para/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-21 11:17:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_GSM Login/button_Log In")): Object: 'Object Repository/Para/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-21 11:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-21 11:17:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Dashboard/div_Content")): Object: 'Object Repository/Para/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-21 11:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-21 11:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Templates/a_Offers")): Object: 'Object Repository/Para/Page_Templates/a_Offers' is clicked on&#xD;
+&#xD;
+2019-10-21 11:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Templates/a_Offers' is clicked on&#xD;
+&#xD;
+2019-10-21 11:17:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_New Offer")): Object: 'Object Repository/Para/Page_Offers/a_New Offer' is clicked on&#xD;
+&#xD;
+2019-10-21 11:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_New Offer' is clicked on&#xD;
+&#xD;
+2019-10-21 11:17:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Offer Name_name"), OfferName): Text 'abc2' is set on object 'Object Repository/Para/Page_Offers/input_Offer Name_name'&#xD;
+&#xD;
+2019-10-21 11:17:52 - [MESSAGE][PASSED] - Text 'abc2' is set on object 'Object Repository/Para/Page_Offers/input_Offer Name_name'&#xD;
+&#xD;
+2019-10-21 11:17:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory")): Object: 'Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory' is clicked on&#xD;
+&#xD;
+2019-10-21 11:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory' is clicked on&#xD;
+&#xD;
+2019-10-21 11:17:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Offer Description_description"), OfferDescription): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Offer Description_description'&#xD;
+&#xD;
+2019-10-21 11:18:02 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Offer Description_description'&#xD;
+&#xD;
+2019-10-21 11:18:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration"), "10/25/2019"): Text '10/25/2019' is set on object 'Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration'&#xD;
+&#xD;
+2019-10-21 11:18:09 - [MESSAGE][PASSED] - Text '10/25/2019' is set on object 'Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration'&#xD;
+&#xD;
+2019-10-21 11:18:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Select")): Object: 'Object Repository/Para/Page_Offers/button_Select' is clicked on&#xD;
+&#xD;
+2019-10-21 11:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Select' is clicked on&#xD;
+&#xD;
+2019-10-21 11:18:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_English (US)")): Object: 'Object Repository/Para/Page_Offers/a_English (US)' is clicked on&#xD;
+&#xD;
+2019-10-21 11:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_English (US)' is clicked on&#xD;
+&#xD;
+2019-10-21 11:18:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Next")): Object: 'Object Repository/Para/Page_Offers/button_Next' is clicked on&#xD;
+&#xD;
+2019-10-21 11:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Next' is clicked on&#xD;
+&#xD;
+2019-10-21 11:18:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Title_title"), Title): null</system-out>
+            <system-err>2019-10-21 11:16:38 - [TEST_CASE][ERROR] - Test Cases/Para: Test Cases/Para FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Title for class: Script1571633244667&#xD;
+	at Para.run(Para:50)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1571636691064.run(TempTestSuite1571636691064.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/Para" classname="Test Cases/Para" status="ERROR">
+            <error type="ERROR" message="Test Cases/Para FAILED.&#xA;Reason:&#xA;groovy.lang.MissingPropertyException: No such property: Title for class: Script1571633244667&#xD;&#xA;&#x9;at Para.run(Para:50)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1571636691064.run(TempTestSuite1571636691064.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-10-21 11:18:22 - [TEST_CASE][ERROR] - Test Cases/Para: Test Cases/Para FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Title for class: Script1571633244667&#xD;
+	at Para.run(Para:50)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1571636691064.run(TempTestSuite1571636691064.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-10-21 11:18:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-21 11:18:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-10-21 11:18:24 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-10-21 11:18:34 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-10-21 11:18:34 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-21 11:18:39 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.gsm.auto/logout' successfully&#xD;
+&#xD;
+2019-10-21 11:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_GSM Portal/button_Log in")): Object: 'Object Repository/Para/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-21 11:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_GSM Portal/button_Log in' is clicked on&#xD;
+&#xD;
+2019-10-21 11:18:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_GSM Login/input_Email Address_email"), un): Text 'sankaran@totient.co.in' is set on object 'Object Repository/Para/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-21 11:18:56 - [MESSAGE][PASSED] - Text 'sankaran@totient.co.in' is set on object 'Object Repository/Para/Page_GSM Login/input_Email Address_email'&#xD;
+&#xD;
+2019-10-21 11:18:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_GSM Login/input_Password_password"), pw): Text 'sandbox85!' is set on object 'Object Repository/Para/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-21 11:19:02 - [MESSAGE][PASSED] - Text 'sandbox85!' is set on object 'Object Repository/Para/Page_GSM Login/input_Password_password'&#xD;
+&#xD;
+2019-10-21 11:19:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_GSM Login/button_Log In")): Object: 'Object Repository/Para/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_GSM Login/button_Log In' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Dashboard/div_Content")): Object: 'Object Repository/Para/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Dashboard/div_Content' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Templates/a_Offers")): Object: 'Object Repository/Para/Page_Templates/a_Offers' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Templates/a_Offers' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_New Offer")): Object: 'Object Repository/Para/Page_Offers/a_New Offer' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_New Offer' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Offer Name_name"), OfferName): Text 'abc3' is set on object 'Object Repository/Para/Page_Offers/input_Offer Name_name'&#xD;
+&#xD;
+2019-10-21 11:19:31 - [MESSAGE][PASSED] - Text 'abc3' is set on object 'Object Repository/Para/Page_Offers/input_Offer Name_name'&#xD;
+&#xD;
+2019-10-21 11:19:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory")): Object: 'Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/input_Marketing Category_marketingCategory' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Offer Description_description"), OfferDescription): Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Offer Description_description'&#xD;
+&#xD;
+2019-10-21 11:19:42 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Para/Page_Offers/textarea_Offer Description_description'&#xD;
+&#xD;
+2019-10-21 11:19:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration"), "10/25/2019"): Text '10/25/2019' is set on object 'Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration'&#xD;
+&#xD;
+2019-10-21 11:19:48 - [MESSAGE][PASSED] - Text '10/25/2019' is set on object 'Object Repository/Para/Page_Offers/input_Objects set to expire will be automatically archived_expiration'&#xD;
+&#xD;
+2019-10-21 11:19:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Select")): Object: 'Object Repository/Para/Page_Offers/button_Select' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Select' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/a_English (US)")): Object: 'Object Repository/Para/Page_Offers/a_English (US)' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/a_English (US)' is clicked on&#xD;
+&#xD;
+2019-10-21 11:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Para/Page_Offers/button_Next")): Object: 'Object Repository/Para/Page_Offers/button_Next' is clicked on&#xD;
+&#xD;
+2019-10-21 11:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Para/Page_Offers/button_Next' is clicked on&#xD;
+&#xD;
+2019-10-21 11:20:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Para/Page_Offers/textarea_Title_title"), Title): null</system-out>
+            <system-err>2019-10-21 11:18:22 - [TEST_CASE][ERROR] - Test Cases/Para: Test Cases/Para FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Title for class: Script1571633244667&#xD;
+	at Para.run(Para:50)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1571636691064.run(TempTestSuite1571636691064.groovy:35)</system-err>
+        </testcase>
+        <system-out>2019-10-21 11:14:59 - [TEST_SUITE][INCOMPLETE] - Para: null</system-out>
+        <system-err>2019-10-21 11:14:59 - [TEST_SUITE][INCOMPLETE] - Para: null</system-err>
+    </testsuite>
+</testsuites>

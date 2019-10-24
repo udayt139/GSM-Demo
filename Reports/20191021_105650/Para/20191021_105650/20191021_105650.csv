@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Para,Chrome 77.0.3865.120,,,2019-10-21 10:57:01,2019-10-21 10:59:02,2m - 1.002s,INCOMPLETE
+,,,,,,,
+Test Cases/Para,Chrome 77.0.3865.120,,,2019-10-21 10:57:01,2019-10-21 10:57:46,44.950s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-21 10:57:02,2019-10-21 10:57:13,11.030s,PASSED
+navigateToUrl(url),Chrome 77.0.3865.120,,,2019-10-21 10:57:13,2019-10-21 10:57:23,9.952s,PASSED
+"click(findTestObject(""Object Repository/Para/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.120,,,2019-10-21 10:57:23,2019-10-21 10:57:37,13.943s,PASSED
+"setText(findTestObject(""Object Repository/Para/Page_GSM Login/input_Email Address_email""), un)",Chrome 77.0.3865.120,,,2019-10-21 10:57:37,2019-10-21 10:57:44,6.548s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Para/Page_GSM Login/input_Password_password""), pw)",Chrome 77.0.3865.120,,,2019-10-21 10:57:44,2019-10-21 10:57:46,2.563s,FAILED
+,,,,,,,
+Test Cases/Para,Chrome 77.0.3865.120,,,2019-10-21 10:57:46,2019-10-21 10:58:22,35.368s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-21 10:57:46,2019-10-21 10:57:59,12.075s,PASSED
+navigateToUrl(url),Chrome 77.0.3865.120,,,2019-10-21 10:57:59,2019-10-21 10:58:05,6.497s,PASSED
+"click(findTestObject(""Object Repository/Para/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.120,,,2019-10-21 10:58:05,2019-10-21 10:58:13,7.799s,PASSED
+"setText(findTestObject(""Object Repository/Para/Page_GSM Login/input_Email Address_email""), un)",Chrome 77.0.3865.120,,,2019-10-21 10:58:13,2019-10-21 10:58:19,6.511s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Para/Page_GSM Login/input_Password_password""), pw)",Chrome 77.0.3865.120,,,2019-10-21 10:58:19,2019-10-21 10:58:22,2.448s,FAILED
+,,,,,,,
+Test Cases/Para,Chrome 77.0.3865.120,,,2019-10-21 10:58:22,2019-10-21 10:59:02,39.645s,FAILED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-21 10:58:22,2019-10-21 10:58:34,12.133s,PASSED
+navigateToUrl(url),Chrome 77.0.3865.120,,,2019-10-21 10:58:34,2019-10-21 10:58:43,9.130s,PASSED
+"click(findTestObject(""Object Repository/Para/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.120,,,2019-10-21 10:58:43,2019-10-21 10:58:53,9.380s,PASSED
+"setText(findTestObject(""Object Repository/Para/Page_GSM Login/input_Email Address_email""), un)",Chrome 77.0.3865.120,,,2019-10-21 10:58:53,2019-10-21 10:58:59,6.535s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Para/Page_GSM Login/input_Password_password""), pw)",Chrome 77.0.3865.120,,,2019-10-21 10:58:59,2019-10-21 10:59:02,2.440s,FAILED
