@@ -3,6 +3,16 @@
    <description></description>
    <name>GSM Logout</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>com.katalon.plugin.testrail.TestRailIntegration</productName>
+      <properties>
+         <entry>
+            <key>testRail.testcase.id</key>
+            <value>19</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>a34b9805-9b01-49dc-b339-b36afa6adcd1</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestRail1,Chrome 77.0.3865.120,,,2019-10-24 16:47:57,2019-10-24 16:49:02,1m - 5.962s,INCOMPLETE
+,,,,,,,
+Test Cases/TestRail/GSM Login,Chrome 77.0.3865.120,,,2019-10-24 16:47:57,2019-10-24 16:49:02,1m - 5.434s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-24 16:47:57,2019-10-24 16:48:09,11.246s,PASSED
+navigateToUrl(url),Chrome 77.0.3865.120,,,2019-10-24 16:48:09,2019-10-24 16:48:14,5.530s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2019-10-24 16:48:14,2019-10-24 16:48:20,6.178s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/GSM Login/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.120,,,2019-10-24 16:48:20,2019-10-24 16:48:29,8.062s,PASSED
+delay(3),Chrome 77.0.3865.120,,,2019-10-24 16:48:29,2019-10-24 16:48:32,3.049s,PASSED
+"setText(findTestObject(""UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Email Address_email""), username)",Chrome 77.0.3865.120,,,2019-10-24 16:48:32,2019-10-24 16:48:38,6.477s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2019-10-24 16:48:38,2019-10-24 16:48:40,2.006s,PASSED
+"setText(findTestObject(""UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Password_password""), password)",Chrome 77.0.3865.120,,,2019-10-24 16:48:40,2019-10-24 16:48:46,6.419s,PASSED
+"click(findTestObject(""UI Test Scenarios/Modules/GSM Login/Page_GSM Login/button_Log In""))",Chrome 77.0.3865.120,,,2019-10-24 16:48:46,2019-10-24 16:48:51,4.296s,PASSED
+delay(5),Chrome 77.0.3865.120,,,2019-10-24 16:48:51,2019-10-24 16:48:56,5.006s,PASSED
+"verifyElementText(findTestObject(""UI Test Scenarios/Modules/GSM Login/div_Welcome Sankaran""), ""Welcome, Sankaran"")",Chrome 77.0.3865.120,,,2019-10-24 16:48:56,2019-10-24 16:49:02,6.720s,PASSED
