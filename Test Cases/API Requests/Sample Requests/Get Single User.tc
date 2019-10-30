@@ -3,6 +3,16 @@
    <description></description>
    <name>Get Single User</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>com.katalon.plugin.testrail.TestRailIntegration</productName>
+      <properties>
+         <entry>
+            <key>testRail.testcase.id</key>
+            <value>39</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>e5f82d6a-d9d9-4d88-95dc-d3b22d903c16</testCaseGuid>
 </TestCaseEntity>

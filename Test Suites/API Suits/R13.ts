@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>R12</name>
+   <name>R13</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,35 +9,29 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>3fe87256-a36f-4f6f-9f4f-3adf8ae94896</testSuiteGuid>
+   <testSuiteGuid>fbf8ecde-489c-46c8-81c4-9c969e86d003</testSuiteGuid>
    <testCaseLink>
-      <guid>4fa40ed3-0799-4b3b-9ca1-852180c691c0</guid>
+      <guid>ddd2d699-5ff6-4905-875b-4a58e4eff002</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestRail/Create Offer</testCaseId>
+      <testCaseId>Test Cases/API Requests/Sample Requests/Create User</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7270c3e0-d74c-4479-9257-d5e42bdc2b41</guid>
+      <guid>c09ce4f3-1711-4735-b54d-99b09fbc5022</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestRail/Delete Offer</testCaseId>
+      <testCaseId>Test Cases/API Requests/Sample Requests/Update User</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>05cd1e7d-cdb8-4f4a-83c7-0c88eefd7c3a</guid>
+      <guid>1dcf4862-171c-41db-82a6-47cb479212a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestRail/Edit Offer</testCaseId>
+      <testCaseId>Test Cases/API Requests/Sample Requests/Get Single User</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>351084b0-3174-49a9-8770-5a8caff7d6a0</guid>
+      <guid>42b58c37-8576-4e3b-9653-037a0d24b7a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestRail/Logout</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c28ab29e-5406-48da-a2e1-e61be306e663</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TestRail/Valid Login</testCaseId>
+      <testCaseId>Test Cases/API Requests/Sample Requests/Delete User</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
