@@ -23,13 +23,13 @@ WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/
 WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Offer Name_name'), 
     'abc')
 
-WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Marketing Category_marketingCategory'))
+WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/Page_Offers/label_Aquisition'))
 
 WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Offer Description_description'), 
     'abc')
 
 WebUI.setText(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration'), 
-    '10/20/2019')
+    '11/10/2019')
 
 WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Select'))
 

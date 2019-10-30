@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Offers" time="308.887" tests="5" failures="2" errors="0">
+   <testsuite name="Regression Offers" tests="5" failures="2" errors="0" time="308.887" timestamp="2019-10-29 14:36:37" hostname="Dell - DESKTOP-A4R0EHC" id="Test Suites/UI Suits/Regression Offers">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191029_143634\\UI Suits\\Regression Offers\\20191029_143634"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191029_143634\\UI Suits\\Regression Offers\\20191029_143634\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191029_143634\\UI Suits\\Regression Offers\\20191029_143634\\1572340178243.png, C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191029_143634\\UI Suits\\Regression Offers\\20191029_143634\\1572340286063.png"/>
+         <property name="hostName" value="Dell - DESKTOP-A4R0EHC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.3.3.11"/>
+         <property name="browser" value="Chrome 77.0.3865.120"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="def375351d14c01aa156f74a14292a67"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI Test Scenarios/Modules/Login/GSM Login" time="50.796" classname="Test Cases/UI Test Scenarios/Modules/Login/GSM Login" status="PASSED">
+         <system-out><![CDATA[2019-10-29 14:36:38 - [TEST_CASE][PASSED] - Test Cases/UI Test Scenarios/Modules/Login/GSM Login: Test Cases/UI Test Scenarios/Modules/Login/GSM Login
+
+2019-10-29 14:36:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-10-29 14:36:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-29 14:36:39 - [MESSAGE][INFO] - Action delay is set to 2 seconds
+
+2019-10-29 14:36:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-10-29 14:36:46 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://sandbox.gsm.auto/logout' successfully
+
+2019-10-29 14:36:52 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.gsm.auto/logout' successfully
+
+2019-10-29 14:36:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-10-29 14:36:56 - [MESSAGE][PASSED] - Current window maximized
+
+2019-10-29 14:36:56 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/GSM Login/Page_GSM Portal/button_Log in")): Object: 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Portal/button_Log in' is clicked on
+
+2019-10-29 14:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Portal/button_Log in' is clicked on
+
+2019-10-29 14:37:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-10-29 14:37:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-10-29 14:37:06 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Email Address_email"), username): Text 'sankaran@totient.co.in' is set on object 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Email Address_email'
+
+2019-10-29 14:37:11 - [MESSAGE][PASSED] - Text 'sankaran@totient.co.in' is set on object 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Email Address_email'
+
+2019-10-29 14:37:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-29 14:37:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-29 14:37:13 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Password_password"), password): Text 'sandbox85!' is set on object 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Password_password'
+
+2019-10-29 14:37:17 - [MESSAGE][PASSED] - Text 'sandbox85!' is set on object 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Login/input_Password_password'
+
+2019-10-29 14:37:17 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/GSM Login/Page_GSM Login/button_Log In")): Object: 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Login/button_Log In' is clicked on
+
+2019-10-29 14:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/GSM Login/Page_GSM Login/button_Log In' is clicked on
+
+2019-10-29 14:37:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-10-29 14:37:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-10-29 14:37:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI Test Scenarios/Modules/GSM Login/div_Welcome Sankaran"), "Welcome, Sankaran"): Actual text and expected text of test object 'Object Repository/UI Test Scenarios/Modules/GSM Login/div_Welcome Sankaran' are matched.
+
+2019-10-29 14:37:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI Test Scenarios/Modules/GSM Login/div_Welcome Sankaran' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer" time="80.512" classname="Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer" status="PASSED">
+         <system-out><![CDATA[2019-10-29 14:37:29 - [TEST_CASE][PASSED] - Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer: Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer
+
+2019-10-29 14:37:29 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Dashboard/div_Content")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Dashboard/div_Content' is clicked on
+
+2019-10-29 14:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Dashboard/div_Content' is clicked on
+
+2019-10-29 14:37:32 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Templates/a_Offers")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Templates/a_Offers' is clicked on
+
+2019-10-29 14:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Templates/a_Offers' is clicked on
+
+2019-10-29 14:37:41 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/a_New Offer")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/a_New Offer' is clicked on
+
+2019-10-29 14:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/a_New Offer' is clicked on
+
+2019-10-29 14:37:44 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Offer Name_name"), "abc"): Text 'abc' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Offer Name_name'
+
+2019-10-29 14:37:51 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Offer Name_name'
+
+2019-10-29 14:37:51 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/Page_Offers/label_Aquisition")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/Page_Offers/label_Aquisition' is clicked on
+
+2019-10-29 14:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/Page_Offers/label_Aquisition' is clicked on
+
+2019-10-29 14:37:54 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Offer Description_description"), "abc"): Text 'abc' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Offer Description_description'
+
+2019-10-29 14:37:59 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Offer Description_description'
+
+2019-10-29 14:37:59 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration"), "11/10/2019"): Text '11/10/2019' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration'
+
+2019-10-29 14:38:05 - [MESSAGE][PASSED] - Text '11/10/2019' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Objects set to expire will be automatically archived_expiration'
+
+2019-10-29 14:38:05 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Select")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Select' is clicked on
+
+2019-10-29 14:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Select' is clicked on
+
+2019-10-29 14:38:08 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/a_English (US)")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/a_English (US)' is clicked on
+
+2019-10-29 14:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/a_English (US)' is clicked on
+
+2019-10-29 14:38:10 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Next")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Next' is clicked on
+
+2019-10-29 14:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Next' is clicked on
+
+2019-10-29 14:38:13 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Title_title"), "abc"): Text 'abc' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Title_title'
+
+2019-10-29 14:38:21 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Title_title'
+
+2019-10-29 14:38:21 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Subtitle_subtitle"), "abc"): Text 'abc' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Subtitle_subtitle'
+
+2019-10-29 14:38:26 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Subtitle_subtitle'
+
+2019-10-29 14:38:26 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Body_body"), "abc"): Text 'abc' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Body_body'
+
+2019-10-29 14:38:30 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Body_body'
+
+2019-10-29 14:38:30 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Offer_offer"), "123"): Text '123' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Offer_offer'
+
+2019-10-29 14:38:35 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/input_Offer_offer'
+
+2019-10-29 14:38:35 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Select_1")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Select_1' is clicked on
+
+2019-10-29 14:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Select_1' is clicked on
+
+2019-10-29 14:38:38 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/a_No Expiration Date")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/a_No Expiration Date' is clicked on
+
+2019-10-29 14:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/a_No Expiration Date' is clicked on
+
+2019-10-29 14:38:41 - [TEST_STEP][PASSED] - setText(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions"), "abc"): Text 'abc' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions'
+
+2019-10-29 14:38:46 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Terms  Conditions_termsAndConditions'
+
+2019-10-29 14:38:46 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Create")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Create' is clicked on
+
+2019-10-29 14:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/button_Create' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer" time="49.057" classname="Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/input_Aquisition_marketingCategory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572339994072.run(TempTestSuite1572339994072.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (def375351d14c01aa156f74a14292a67)] -> xpath: (//input[@name='marketingCategory'])[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A4R0EHC', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: def375351d14c01aa156f74a14292a67
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-10-29 14:38:49 - [TEST_CASE][FAILED] - Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer: Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/input_Aquisition_marketingCategory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572339994072.run(TempTestSuite1572339994072.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (def375351d14c01aa156f74a14292a67)] -> xpath: (//input[@name='marketingCategory'])[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A4R0EHC', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: def375351d14c01aa156f74a14292a67
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-10-29 14:38:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-10-29 14:38:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-10-29 14:38:54 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Templates/a_Offers")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Templates/a_Offers' is clicked on
+
+2019-10-29 14:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Templates/a_Offers' is clicked on
+
+2019-10-29 14:38:58 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/a_abc")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/a_abc' is clicked on
+
+2019-10-29 14:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/a_abc' is clicked on
+
+2019-10-29 14:39:00 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/button_Yes Edit")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/button_Yes Edit' is clicked on
+
+2019-10-29 14:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/button_Yes Edit' is clicked on
+
+2019-10-29 14:39:03 - [TEST_STEP][FAILED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/input_Aquisition_marketingCategory")): Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/input_Aquisition_marketingCategory' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/input_Aquisition_marketingCategory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572339994072.run(TempTestSuite1572339994072.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (def375351d14c01aa156f74a14292a67)] -> xpath: (//input[@name='marketingCategory'])[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A4R0EHC', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: def375351d14c01aa156f74a14292a67
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1571287639499.run(Script1571287639499.groovy:25)
+	... 13 more
+)
+
+2019-10-29 14:39:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/input_Aquisition_marketingCategory' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/input_Aquisition_marketingCategory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572339994072.run(TempTestSuite1572339994072.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (def375351d14c01aa156f74a14292a67)] -> xpath: (//input[@name='marketingCategory'])[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A4R0EHC', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: def375351d14c01aa156f74a14292a67
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1571287639499.run(Script1571287639499.groovy:25)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191029_143634\\UI Suits\\Regression Offers\\20191029_143634\\1572340178243.png]]]]></system-out>
+         <system-err><![CDATA[2019-10-29 14:38:49 - [TEST_CASE][FAILED] - Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer: Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/input_Aquisition_marketingCategory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572339994072.run(TempTestSuite1572339994072.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (def375351d14c01aa156f74a14292a67)] -> xpath: (//input[@name='marketingCategory'])[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A4R0EHC', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: def375351d14c01aa156f74a14292a67
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer" time="107.913" classname="Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Delete Offer.run(Delete Offer:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572339994072.run(TempTestSuite1572339994072.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete' located by 'By.xpath: //button[@id='Delete-event']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-10-29 14:39:38 - [TEST_CASE][FAILED] - Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer: Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Delete Offer.run(Delete Offer:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572339994072.run(TempTestSuite1572339994072.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete' located by 'By.xpath: //button[@id='Delete-event']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-10-29 14:39:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-10-29 14:39:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-10-29 14:39:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-29 14:39:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-29 14:39:45 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/div_Most Recent Uploads_library-table-checkbox no-label checkbox")): Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/div_Most Recent Uploads_library-table-checkbox no-label checkbox' is clicked on
+
+2019-10-29 14:40:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/main/div/div[2]/div[2]/div[3]/div/table/tbody/tr/td/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-10-29 14:40:33 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-10-29 14:40:33 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='app']/main/div/div[2]/div[2]/div[3]/div/table/tbody/tr/td/div'.
+
+2019-10-29 14:40:33 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Most Recent Uploads'])[1]/following::div[5]'.
+
+2019-10-29 14:40:33 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Sort'])[1]/following::div[5]'.
+
+2019-10-29 14:40:34 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='abc'])[1]/preceding::div[1]'.
+
+2019-10-29 14:40:34 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath/Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/div_Most Recent Uploads_library-table-checkbox no-label checkbox_neighbor_0.png
+
+2019-10-29 14:40:34 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Active'])[2]/preceding::div[1]'.
+
+2019-10-29 14:40:35 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//td/div'.
+
+2019-10-29 14:40:35 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='abc'])[1]/preceding::div[1]'.
+
+2019-10-29 14:40:35 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-10-29 14:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/div_Most Recent Uploads_library-table-checkbox no-label checkbox' is clicked on
+
+2019-10-29 14:40:37 - [TEST_STEP][FAILED] - click(findTestObject("UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete")): Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Delete Offer.run(Delete Offer:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572339994072.run(TempTestSuite1572339994072.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete' located by 'By.xpath: //button[@id='Delete-event']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1571287639487.run(Script1571287639487.groovy:23)
+	... 13 more
+)
+
+2019-10-29 14:41:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='Delete-event']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-10-29 14:41:24 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-10-29 14:41:24 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//button[@id='Delete-event']/span'.
+
+2019-10-29 14:41:24 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Copy'])[1]/following::span[1]'.
+
+2019-10-29 14:41:25 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::span[2]'.
+
+2019-10-29 14:41:25 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Archive'])[1]/preceding::span[1]'.
+
+2019-10-29 14:41:25 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Tag...'])[1]/preceding::span[2]'.
+
+2019-10-29 14:41:26 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[4]/button/span'.
+
+2019-10-29 14:41:26 - [MESSAGE][INFO] - [SMART_XPATH] No working XPath is found.
+
+2019-10-29 14:41:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Delete Offer.run(Delete Offer:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572339994072.run(TempTestSuite1572339994072.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete' located by 'By.xpath: //button[@id='Delete-event']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1571287639487.run(Script1571287639487.groovy:23)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191029_143634\\UI Suits\\Regression Offers\\20191029_143634\\1572340286063.png]]]]></system-out>
+         <system-err><![CDATA[2019-10-29 14:39:38 - [TEST_CASE][FAILED] - Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer: Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Delete Offer.run(Delete Offer:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572339994072.run(TempTestSuite1572339994072.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/span_Delete' located by 'By.xpath: //button[@id='Delete-event']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI Test Scenarios/Modules/Logout/GSM Logout" time="5.678" classname="Test Cases/UI Test Scenarios/Modules/Logout/GSM Logout" status="PASSED">
+         <system-out><![CDATA[2019-10-29 14:41:26 - [TEST_CASE][PASSED] - Test Cases/UI Test Scenarios/Modules/Logout/GSM Logout: Test Cases/UI Test Scenarios/Modules/Logout/GSM Logout
+
+2019-10-29 14:41:26 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4")): Object: 'Object Repository/UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4' is clicked on
+
+2019-10-29 14:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Help_user-panel-dropdown-4' is clicked on
+
+2019-10-29 14:41:29 - [TEST_STEP][PASSED] - click(findTestObject("UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Log Out")): Object: 'Object Repository/UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Log Out' is clicked on
+
+2019-10-29 14:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UI Test Scenarios/Modules/GSM Logout/Page_Templates/a_Log Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-29 14:36:37 - [TEST_SUITE][FAILED] - Regression Offers: Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/input_Aquisition_marketingCategory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572339994072.run(TempTestSuite1572339994072.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (def375351d14c01aa156f74a14292a67)] -> xpath: (//input[@name='marketingCategory'])[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A4R0EHC', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: def375351d14c01aa156f74a14292a67
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-10-29 14:36:37 - [TEST_SUITE][FAILED] - Regression Offers: Test Cases/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/input_Aquisition_marketingCategory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Offer.run(Edit Offer:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572339994072.run(TempTestSuite1572339994072.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (def375351d14c01aa156f74a14292a67)] -> xpath: (//input[@name='marketingCategory'])[2]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-A4R0EHC', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: def375351d14c01aa156f74a14292a67
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

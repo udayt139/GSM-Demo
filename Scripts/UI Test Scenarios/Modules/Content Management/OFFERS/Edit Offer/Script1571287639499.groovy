@@ -22,7 +22,7 @@ WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/
 
 WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/button_Yes Edit'))
 
-WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/input_Aquisition_marketingCategory'))
+WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Edit Image/label_Transaction'))
 
 WebUI.click(findTestObject('UI Test Scenarios/Modules/Content Management/OFFERS/Edit Offer/Page_Offers/button_Next'))
 

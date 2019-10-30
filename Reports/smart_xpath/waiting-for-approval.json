@@ -34,6 +34,20 @@
       "testObjectId": "Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Title_title",
       "brokenXPath": "//textarea[@id\u003d\u0027title\u0027]",
       "pathToScreenshot": "C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath/Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Create Offer/Page_Offers/textarea_Title_title_position.png"
+    },
+    {
+      "approved": false,
+      "proposedXPath": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027abc\u0027])[1]/preceding::div[1]",
+      "testObjectId": "Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/div_Most Recent Uploads_library-table-checkbox no-label checkbox",
+      "brokenXPath": "//div[@id\u003d\u0027app\u0027]/main/div/div[2]/div[2]/div[3]/div/table/tbody/tr/td/div",
+      "pathToScreenshot": "C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath/Object Repository/UI Test Scenarios/Modules/Content Management/OFFERS/Delete Offer/Page_Offers/div_Most Recent Uploads_library-table-checkbox no-label checkbox_neighbor_0.png"
+    },
+    {
+      "approved": false,
+      "proposedXPath": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Aquisition\u0027])[1]/following::label[1]",
+      "testObjectId": "Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Edit Image/label_Transaction",
+      "brokenXPath": "//div[@id\u003d\u0027app\u0027]/main/div/div[2]/div[2]/form/div/div[2]/div/div[2]/div/div[2]/div/div[2]/label",
+      "pathToScreenshot": "C:/Users/Dell/Katalon Studio/GSM Demo/Reports/smart_xpath/Object Repository/UI Test Scenarios/Modules/Content Management/IMAGES/Edit Image/Page_Edit Image/label_Transaction_neighbor_0.png"
     }
   ]
 }
