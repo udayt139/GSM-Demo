@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+R13,Chrome 77.0.3865.120,,,2019-10-30 09:56:45,2019-10-30 09:59:16,2m - 31.620s,PASSED
+,,,,,,,
+Test Cases/TestRail/Create Offer,Chrome 77.0.3865.120,,,2019-10-30 09:56:45,2019-10-30 09:57:18,32.665s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-30 09:56:46,2019-10-30 09:56:53,7.579s,PASSED
+"navigateToUrl(""https://sandbox.gsm.auto/logout"")",Chrome 77.0.3865.120,,,2019-10-30 09:56:53,2019-10-30 09:56:58,5.092s,PASSED
+"click(findTestObject(""Object Repository/TestRail/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.120,,,2019-10-30 09:56:58,2019-10-30 09:57:05,6.089s,PASSED
+"setText(findTestObject(""Object Repository/TestRail/Page_GSM Login/input_Email Address_email""), ""sankaran@totient.co.in"")",Chrome 77.0.3865.120,,,2019-10-30 09:57:05,2019-10-30 09:57:10,5.321s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TestRail/Page_GSM Login/input_Password_password""), ""4bOuNFpH31s4Qkh1shYRow=="")",Chrome 77.0.3865.120,,,2019-10-30 09:57:10,2019-10-30 09:57:15,4.748s,PASSED
+"click(findTestObject(""Object Repository/TestRail/Page_GSM Login/button_Log In""))",Chrome 77.0.3865.120,,,2019-10-30 09:57:15,2019-10-30 09:57:17,2.509s,PASSED
+closeBrowser(),Chrome 77.0.3865.120,,,2019-10-30 09:57:17,2019-10-30 09:57:18,0.763s,PASSED
+,,,,,,,
+Test Cases/TestRail/Delete Offer,Chrome 77.0.3865.120,,,2019-10-30 09:57:18,2019-10-30 09:57:47,29.354s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-30 09:57:18,2019-10-30 09:57:24,5.552s,PASSED
+"navigateToUrl(""https://sandbox.gsm.auto/logout"")",Chrome 77.0.3865.120,,,2019-10-30 09:57:24,2019-10-30 09:57:29,5.023s,PASSED
+"click(findTestObject(""Object Repository/TestRail/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.120,,,2019-10-30 09:57:29,2019-10-30 09:57:34,5.364s,PASSED
+"setText(findTestObject(""Object Repository/TestRail/Page_GSM Login/input_Email Address_email""), ""sankaran@totient.co.in"")",Chrome 77.0.3865.120,,,2019-10-30 09:57:34,2019-10-30 09:57:39,5.081s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TestRail/Page_GSM Login/input_Password_password""), ""4bOuNFpH31s4Qkh1shYRow=="")",Chrome 77.0.3865.120,,,2019-10-30 09:57:39,2019-10-30 09:57:44,4.620s,PASSED
+"click(findTestObject(""Object Repository/TestRail/Page_GSM Login/button_Log In""))",Chrome 77.0.3865.120,,,2019-10-30 09:57:44,2019-10-30 09:57:46,2.573s,PASSED
+closeBrowser(),Chrome 77.0.3865.120,,,2019-10-30 09:57:46,2019-10-30 09:57:47,0.785s,PASSED
+,,,,,,,
+Test Cases/TestRail/Edit Offer,Chrome 77.0.3865.120,,,2019-10-30 09:57:47,2019-10-30 09:58:18,30.626s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-30 09:57:48,2019-10-30 09:57:53,5.553s,PASSED
+"navigateToUrl(""https://sandbox.gsm.auto/logout"")",Chrome 77.0.3865.120,,,2019-10-30 09:57:53,2019-10-30 09:57:59,5.914s,PASSED
+"click(findTestObject(""Object Repository/TestRail/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.120,,,2019-10-30 09:57:59,2019-10-30 09:58:05,5.947s,PASSED
+"setText(findTestObject(""Object Repository/TestRail/Page_GSM Login/input_Email Address_email""), ""sankaran@totient.co.in"")",Chrome 77.0.3865.120,,,2019-10-30 09:58:05,2019-10-30 09:58:10,4.893s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TestRail/Page_GSM Login/input_Password_password""), ""4bOuNFpH31s4Qkh1shYRow=="")",Chrome 77.0.3865.120,,,2019-10-30 09:58:10,2019-10-30 09:58:15,4.582s,PASSED
+"click(findTestObject(""Object Repository/TestRail/Page_GSM Login/button_Log In""))",Chrome 77.0.3865.120,,,2019-10-30 09:58:15,2019-10-30 09:58:17,2.531s,PASSED
+closeBrowser(),Chrome 77.0.3865.120,,,2019-10-30 09:58:17,2019-10-30 09:58:18,0.790s,PASSED
+,,,,,,,
+Test Cases/TestRail/Logout,Chrome 77.0.3865.120,,,2019-10-30 09:58:18,2019-10-30 09:58:47,29.342s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-30 09:58:18,2019-10-30 09:58:24,5.563s,PASSED
+"navigateToUrl(""https://sandbox.gsm.auto/logout"")",Chrome 77.0.3865.120,,,2019-10-30 09:58:24,2019-10-30 09:58:29,4.985s,PASSED
+"click(findTestObject(""Object Repository/TestRail/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.120,,,2019-10-30 09:58:29,2019-10-30 09:58:34,5.572s,PASSED
+"setText(findTestObject(""Object Repository/TestRail/Page_GSM Login/input_Email Address_email""), ""sankaran@totient.co.in"")",Chrome 77.0.3865.120,,,2019-10-30 09:58:34,2019-10-30 09:58:39,4.995s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TestRail/Page_GSM Login/input_Password_password""), ""4bOuNFpH31s4Qkh1shYRow=="")",Chrome 77.0.3865.120,,,2019-10-30 09:58:39,2019-10-30 09:58:44,4.586s,PASSED
+"click(findTestObject(""Object Repository/TestRail/Page_GSM Login/button_Log In""))",Chrome 77.0.3865.120,,,2019-10-30 09:58:44,2019-10-30 09:58:47,2.507s,PASSED
+closeBrowser(),Chrome 77.0.3865.120,,,2019-10-30 09:58:47,2019-10-30 09:58:47,0.784s,PASSED
+,,,,,,,
+Test Cases/TestRail/Valid Login,Chrome 77.0.3865.120,,,2019-10-30 09:58:47,2019-10-30 09:59:16,29.102s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.120,,,2019-10-30 09:58:48,2019-10-30 09:58:53,5.569s,PASSED
+"navigateToUrl(""https://sandbox.gsm.auto/logout"")",Chrome 77.0.3865.120,,,2019-10-30 09:58:53,2019-10-30 09:58:58,4.914s,PASSED
+"click(findTestObject(""Object Repository/TestRail/Page_GSM Portal/button_Log in""))",Chrome 77.0.3865.120,,,2019-10-30 09:58:58,2019-10-30 09:59:04,5.496s,PASSED
+"setText(findTestObject(""Object Repository/TestRail/Page_GSM Login/input_Email Address_email""), ""sankaran@totient.co.in"")",Chrome 77.0.3865.120,,,2019-10-30 09:59:04,2019-10-30 09:59:09,5.001s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TestRail/Page_GSM Login/input_Password_password""), ""4bOuNFpH31s4Qkh1shYRow=="")",Chrome 77.0.3865.120,,,2019-10-30 09:59:09,2019-10-30 09:59:13,4.578s,PASSED
+"click(findTestObject(""Object Repository/TestRail/Page_GSM Login/button_Log In""))",Chrome 77.0.3865.120,,,2019-10-30 09:59:13,2019-10-30 09:59:16,2.507s,PASSED
+closeBrowser(),Chrome 77.0.3865.120,,,2019-10-30 09:59:16,2019-10-30 09:59:16,0.765s,PASSED

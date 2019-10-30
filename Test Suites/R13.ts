@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>R12</name>
+   <name>R13</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,7 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>3fe87256-a36f-4f6f-9f4f-3adf8ae94896</testSuiteGuid>
+   <testSuiteGuid>87bad2f2-9540-4828-ba26-390c4648add9</testSuiteGuid>
    <testCaseLink>
       <guid>4fa40ed3-0799-4b3b-9ca1-852180c691c0</guid>
       <isReuseDriver>false</isReuseDriver>
