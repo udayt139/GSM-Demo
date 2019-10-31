@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="R13" time="12" tests="4" failures="0" errors="0">
+    <testsuite name="R13" tests="4" failures="0" errors="0" time="12" timestamp="2019-10-30 16:19:30" hostname="Dell - DESKTOP-A4R0EHC" id="Test Suites/API Suits/R13">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191030_161924\\API Suits\\R13\\20191030_161924"/>
+            <property name="logFiles" value="C:\\Users\\Dell\\Katalon Studio\\GSM Demo\\Reports\\20191030_161924\\API Suits\\R13\\20191030_161924\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Dell - DESKTOP-A4R0EHC"/>
+            <property name="hostAddress" value="192.168.0.110"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/API Requests/Sample Requests/Create User" classname="Test Cases/API Requests/Sample Requests/Create User" status="PASSED">
+            <system-out>2019-10-30 16:19:31 - [TEST_CASE][PASSED] - Test Cases/API Requests/Sample Requests/Create User: Test Cases/API Requests/Sample Requests/Create User&#xD;
+&#xD;
+2019-10-30 16:19:31 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("API Requests/Sample Requests/Create User")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-10-30 16:19:34 - [MESSAGE][INFO] - HAR: C:\Users\Dell\Katalon Studio\GSM Demo\Reports\20191030_161924\API Suits\R13\20191030_161924\requests\main\0.har&#xD;
+&#xD;
+2019-10-30 16:19:35 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-10-30 16:19:35 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-10-30 16:19:35 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-10-30 16:19:35 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully&#xD;
+&#xD;
+2019-10-30 16:19:35 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-10-30 16:19:35 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null&#xD;
+&#xD;
+2019-10-30 16:19:35 - [TEST_STEP][PASSED] - containsKey("Content-Type")).isTrue(): null&#xD;
+&#xD;
+2019-10-30 16:19:35 - [TEST_STEP][PASSED] - getResponseText()).contains("name"): null&#xD;
+&#xD;
+2019-10-30 16:19:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "morpheus"): Verify element property value successfully&#xD;
+&#xD;
+2019-10-30 16:19:36 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-10-30 16:19:36 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-10-30 16:19:36 - [MESSAGE][PASSED] - Send request and verify the response successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/API Requests/Sample Requests/Update User" classname="Test Cases/API Requests/Sample Requests/Update User" status="PASSED">
+            <system-out>2019-10-30 16:19:36 - [TEST_CASE][PASSED] - Test Cases/API Requests/Sample Requests/Update User: Test Cases/API Requests/Sample Requests/Update User&#xD;
+&#xD;
+2019-10-30 16:19:36 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("API Requests/Sample Requests/Update User")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-10-30 16:19:38 - [MESSAGE][INFO] - HAR: C:\Users\Dell\Katalon Studio\GSM Demo\Reports\20191030_161924\API Suits\R13\20191030_161924\requests\main\1.har&#xD;
+&#xD;
+2019-10-30 16:19:38 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-10-30 16:19:38 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-10-30 16:19:39 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-10-30 16:19:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-10-30 16:19:39 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-10-30 16:19:39 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null&#xD;
+&#xD;
+2019-10-30 16:19:39 - [TEST_STEP][PASSED] - containsKey("Content-Type")).isTrue(): null&#xD;
+&#xD;
+2019-10-30 16:19:39 - [TEST_STEP][PASSED] - getResponseText()).contains("name"): null&#xD;
+&#xD;
+2019-10-30 16:19:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "morpheus"): Verify element property value successfully&#xD;
+&#xD;
+2019-10-30 16:19:39 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-10-30 16:19:39 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-10-30 16:19:39 - [MESSAGE][PASSED] - Send request and verify the response successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/API Requests/Sample Requests/Get Single User" classname="Test Cases/API Requests/Sample Requests/Get Single User" status="PASSED">
+            <system-out>2019-10-30 16:19:39 - [TEST_CASE][PASSED] - Test Cases/API Requests/Sample Requests/Get Single User: Test Cases/API Requests/Sample Requests/Get Single User&#xD;
+&#xD;
+2019-10-30 16:19:39 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("API Requests/Sample Requests/Get Single User")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-10-30 16:19:40 - [MESSAGE][INFO] - HAR: C:\Users\Dell\Katalon Studio\GSM Demo\Reports\20191030_161924\API Suits\R13\20191030_161924\requests\main\2.har&#xD;
+&#xD;
+2019-10-30 16:19:40 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-10-30 16:19:40 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-10-30 16:19:40 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-10-30 16:19:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-10-30 16:19:40 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-10-30 16:19:40 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null&#xD;
+&#xD;
+2019-10-30 16:19:40 - [TEST_STEP][PASSED] - containsKey("Content-Type")).isTrue(): null&#xD;
+&#xD;
+2019-10-30 16:19:40 - [TEST_STEP][PASSED] - getResponseText()).contains("first_name"): null&#xD;
+&#xD;
+2019-10-30 16:19:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.first_name", "Janet"): Verify element property value successfully&#xD;
+&#xD;
+2019-10-30 16:19:40 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-10-30 16:19:40 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-10-30 16:19:40 - [MESSAGE][PASSED] - Send request and verify the response successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/API Requests/Sample Requests/Delete User" classname="Test Cases/API Requests/Sample Requests/Delete User" status="PASSED">
+            <system-out>2019-10-30 16:19:40 - [TEST_CASE][PASSED] - Test Cases/API Requests/Sample Requests/Delete User: Test Cases/API Requests/Sample Requests/Delete User&#xD;
+&#xD;
+2019-10-30 16:19:40 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("API Requests/Sample Requests/Delete User")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-10-30 16:19:42 - [MESSAGE][INFO] - HAR: C:\Users\Dell\Katalon Studio\GSM Demo\Reports\20191030_161924\API Suits\R13\20191030_161924\requests\main\3.har&#xD;
+&#xD;
+2019-10-30 16:19:42 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-10-30 16:19:42 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-10-30 16:19:42 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-10-30 16:19:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully&#xD;
+&#xD;
+2019-10-30 16:19:42 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-10-30 16:19:42 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(204): null&#xD;
+&#xD;
+2019-10-30 16:19:42 - [TEST_STEP][PASSED] - containsKey("Connection")).isTrue(): null&#xD;
+&#xD;
+2019-10-30 16:19:42 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-10-30 16:19:42 - [MESSAGE][PASSED] - Send request and verify the response successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-30 16:19:30 - [TEST_SUITE][INCOMPLETE] - R13: null</system-out>
+        <system-err>2019-10-30 16:19:30 - [TEST_SUITE][INCOMPLETE] - R13: null</system-err>
+    </testsuite>
+</testsuites>

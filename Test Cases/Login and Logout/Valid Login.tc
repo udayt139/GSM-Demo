@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Valid Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>96cdfb66-6d8c-452e-82fc-f3f3aaaebe9c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6f82013f-987a-46b7-89b1-b896698ffba2</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42072ad3-06ac-40b4-b0e1-f726ec8c722a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6d694eed-00ba-45d7-8c3d-d18f743a9d19</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

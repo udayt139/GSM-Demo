@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+S2 API Test 1,,,,2019-10-31 10:22:18,2019-10-31 10:22:29,10.923s,PASSED
+,,,,,,,
+Test Cases/API Requests/Sample Requests/Create User,,,,2019-10-31 10:22:19,2019-10-31 10:22:25,6.111s,PASSED
+"sendRequestAndVerify(findTestObject(""API Requests/Sample Requests/Create User""))",,,,2019-10-31 10:22:20,2019-10-31 10:22:25,5.479s,PASSED
+,,,,,,,
+Test Cases/API Requests/Sample Requests/Update User,,,,2019-10-31 10:22:25,2019-10-31 10:22:27,1.574s,PASSED
+"sendRequestAndVerify(findTestObject(""API Requests/Sample Requests/Update User""))",,,,2019-10-31 10:22:26,2019-10-31 10:22:27,1.069s,PASSED
+,,,,,,,
+Test Cases/API Requests/Sample Requests/Get Single User,,,,2019-10-31 10:22:27,2019-10-31 10:22:28,0.843s,PASSED
+"sendRequestAndVerify(findTestObject(""API Requests/Sample Requests/Get Single User""))",,,,2019-10-31 10:22:27,2019-10-31 10:22:28,0.605s,PASSED
+,,,,,,,
+Test Cases/API Requests/Sample Requests/Delete User,,,,2019-10-31 10:22:28,2019-10-31 10:22:29,1.527s,PASSED
+"sendRequestAndVerify(findTestObject(""API Requests/Sample Requests/Delete User""))",,,,2019-10-31 10:22:28,2019-10-31 10:22:29,1.058s,PASSED
