@@ -3,6 +3,16 @@
    <description></description>
    <name>Valid Logout</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>com.katalon.plugin.testrail.TestRailIntegration</productName>
+      <properties>
+         <entry>
+            <key>testRail.testcase.id</key>
+            <value>44</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>6bddd84f-bb23-45da-96b5-68ff589e9b3e</testCaseGuid>
 </TestCaseEntity>

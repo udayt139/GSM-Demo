@@ -3,6 +3,16 @@
    <description></description>
    <name>Valid Login</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>com.katalon.plugin.testrail.TestRailIntegration</productName>
+      <properties>
+         <entry>
+            <key>testRail.testcase.id</key>
+            <value>43</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>96cdfb66-6d8c-452e-82fc-f3f3aaaebe9c</testCaseGuid>
    <variable>

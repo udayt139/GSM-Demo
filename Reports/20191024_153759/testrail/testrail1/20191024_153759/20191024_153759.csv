@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-testrail1,,,,2019-10-24 15:38:09,2019-10-24 15:38:10,1.247s,INCOMPLETE
-,,,,,,,
-Test Cases/1,,,,2019-10-24 15:38:09,2019-10-24 15:38:10,0.632s,PASSED
-return null,,,,2019-10-24 15:38:10,2019-10-24 15:38:10,0.004s,PASSED
