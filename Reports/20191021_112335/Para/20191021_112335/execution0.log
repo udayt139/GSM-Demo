@@ -3747,3 +3747,70 @@
   <message>Reading excel file with source file &amp;apos;C:\\Users\\Dell\\Documents\\Useful Documents\\GSM Login.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
   <nestedLevel>0</nestedLevel>
 </record>
+<record>
+  <date>2019-10-31T14:52:36</date>
+  <millis>1572513756662</millis>
+  <sequence>1796</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>840</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Offers Regression/GSM Login&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:36</date>
+  <millis>1572513756677</millis>
+  <sequence>1797</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>840</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:36</date>
+  <millis>1572513756677</millis>
+  <sequence>1798</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>840</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Dell\\Documents\\Useful Documents\\GSM Login.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T15:17:00</date>
+  <millis>1572515220712</millis>
+  <sequence>2065</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>910</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Offers Regression/GSM Login&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T15:17:00</date>
+  <millis>1572515220717</millis>
+  <sequence>2066</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>910</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T15:17:00</date>
+  <millis>1572515220717</millis>
+  <sequence>2067</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>910</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Dell\\Documents\\Useful Documents\\GSM Login.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
